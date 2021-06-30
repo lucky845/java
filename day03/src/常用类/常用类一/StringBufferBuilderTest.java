@@ -27,7 +27,7 @@ public class StringBufferBuilderTest {
 
     // 问题1：System.out.println(sb1.length()); // 3
     // 问题2：扩容问题：如果要添加的数据底层数组盛装不下了，就需要扩容
-                默认情况下，扩容为原来容量的2倍+2.同时将原有数组中的元素复制到新的数组
+                默认情况下，扩容为原来容量的2倍+2.同时将原有数组中的元素复制到新的数组中
 
                 指导意义：开发中建议使用StringBuffer(int capacity) 或 StringBuilder(int capacity)
 
