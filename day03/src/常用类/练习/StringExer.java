@@ -14,7 +14,6 @@ public class StringExer {
     1.模拟一个trim方法，去除字符串两端的空格
      */
 
-    @Test
     public String myTrim(String str){
 
         if(str != null){
@@ -45,7 +44,6 @@ public class StringExer {
      */
 
     // 方式一：
-//    @Test
 //    public String reverse1(String str,int start,int end){ // start:2,end:5
 //
 //        if(str != null){
@@ -65,7 +63,6 @@ public class StringExer {
 //    }
 
     // 方式二：
-//    @Test
 //    public String reverse2(String str,int start,int end){
 //        // 1.
 //        String newStr = str.substring(0,start);
@@ -80,7 +77,6 @@ public class StringExer {
 //    }
 
     // 方式三：(推荐)
-    @Test
     public String reverse3(String str,int start,int end){ // ArrayList list = new ArrayList(80);
         // 1.
         StringBuffer s = new StringBuffer(str.length());
@@ -111,7 +107,6 @@ public class StringExer {
     比如：获取“ ab”在 “abkkcadkabkebfkabkskab” 中出现的次数
      */
 
-    @Test
     public int getCount(String mainStr,String subStr){
 
         if(mainStr.length() >= subStr.length()){
@@ -156,7 +151,6 @@ public class StringExer {
     提示：将短的那个串进行长度依次递减的子串与较长的串比较。
      */
 
-    @Test
     // 如果只存在一个最大长度的相同子串
     public String getMaxSameSubString(String str1, String str2) {
         if (str1 != null && str2 != null) {
@@ -249,7 +243,6 @@ public class StringExer {
     3）将排序后的数组变成字符串。
      */
 
-    @Test
     public void testSort() {
         String str = "abcwerthelloyuiodef";
         char[] arr = str.toCharArray();
