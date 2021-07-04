@@ -3,6 +3,9 @@ package 常用类.常用类一;
 import org.junit.Test;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+import java.time.temporal.TemporalAccessor;
 import java.util.Date;
 
 /**
@@ -102,10 +105,44 @@ public class JDK8DateTimeTest {
     @Test
     public void test3(){
 //        方式一:预定义的标准格式。如：ISO_LOCAL_DATE_TIME;ISO_LOCAL_DATE;ISO_LOCAL_TIME
+        DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
+        // 格式化:日期 --> 字符串
+        LocalDateTime localDateTime = LocalDateTime.now();
+        String str1 = formatter.format(localDateTime);
+        System.out.println(localDateTime);
+        System.out.println(str1);
 
-//        方式二:本地化相关的格式。如：ofLocalizedDateTime(FormatStyle.LONG)
+        // 解析:字符串 --> 日期
+        TemporalAccessor parse = formatter.parse("2021-07-04T12:26:30.6986894");
+        System.out.println(parse);
 
-//        方式三:自定义的格式。如：ofPattern(“yyyy-MM-dd hh:mm:ss”)
+//        方式二:
+//        本地化相关的格式.如:ofLocalizedDateTime()
+//        FormatStyle.LONG / FormatStyle.MEDIUM / FormatStyle.SHORT :适用于LocalDateTime
+        DateTimeFormatter formatter1 = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
+        // 格式化:日期 --> 字符串
+        String str2 = localDateTime.format(formatter1);
+        System.out.println(str2); // 2021/7/4 下午12:35
+
+//        本地化相关的格式.如:ofLocalizedDate()
+//        FormatStyle.FULL / FormatStyle.LONG / FormatStyle.MEDIUM / FormatStyle.SHORT :适用于LocalDateTime
+        DateTimeFormatter formatter2 = DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL);
+        // 格式化:日期 --> 字符串
+        String str3 = formatter2.format(LocalDate.now());
+        System.out.println(str3); // 2021年7月4日星期日
+
+
+//        重点:方式三:自定义的格式。如：ofPattern(“yyyy-MM-dd hh:mm:ss”)
+        DateTimeFormatter formatter3 = DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss");
+        // 格式化:日期 --> 字符串
+        String str4 = formatter3.format(localDateTime.now());
+        System.out.println(str4); // 2021-07-04 12:42:10
+
+        // 解析:字符串 --> 日期
+        TemporalAccessor parse1 = formatter3.parse("2021-07-04 12:42:10");
+        System.out.println(parse1); // {NanoOfSecond=0, MicroOfSecond=0, MinuteOfHour=42, MilliOfSecond=0, HourOfAmPm=0, SecondOfMinute=10},ISO resolved to 2021-07-04
 
     }
+
+
 }
