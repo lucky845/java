@@ -35,11 +35,17 @@ public class TeamService {
         if (isExist(p))
             throw new TeamException("该员工已在本团队中");
 
-        if(p.getStatus().getNAME().equals("BUSY")) {
-            throw new TeamException("该员工已是某团队成员");
-        }else if(p.getStatus().getNAME().equals("VOCATION")) {
-            throw new TeamException("该员正在休假，无法添加");
-        }
+//        if(p.getStatus().getNAME().equals("BUSY")) {
+//            throw new TeamException("该员工已是某团队成员");
+//        }else if(p.getStatus().getNAME().equals("VOCATION")) {
+//            throw new TeamException("该员正在休假，无法添加");
+//        }
+       switch ( p.getStatus()){ // byte/short/char/int/String/枚举类对象
+           case BUSY:
+               throw new TeamException("该员工已是某团队成员");
+           case VOCATION:
+               throw new TeamException("该员正在休假，无法添加");
+       }
 
 //        switch (p.getStatus()) {
 //            case BUSY    :throw new TeamException("该员工已是某团队成员");

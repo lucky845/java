@@ -161,7 +161,7 @@ public class DateTimeTest {
         days = calendar.get(Calendar.DAY_OF_MONTH);
         System.out.println(days);
 
-        // getTime()
+        // getTime():日历类 ---> Date
         Date date = calendar.getTime();
         System.out.println(date);
 
