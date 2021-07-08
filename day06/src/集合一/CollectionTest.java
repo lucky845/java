@@ -1,4 +1,4 @@
-package 集合;
+package 集合一;
 
 
 import org.junit.Test;

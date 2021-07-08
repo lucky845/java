@@ -1,9 +1,10 @@
-package 集合;
+package 集合一;
 
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -77,6 +78,19 @@ public class ListTest {
     Object set(int index, Object ele):设置指定index位置的元素为ele
     List subList(int fromIndex, int toIndex):返回从fromIndex到toIndex位置的子集合
 
+    总结：常用方法
+    增：add(Object obj)
+    删：remove(int index) / remove(Object obj)
+    改：set(int index,Object ele)
+    查：get(int index)
+    插：add(int index,Object ele)
+    长度：size()
+    遍历：① Iterator迭代器方式
+         ② 增强for循环
+         ③ 普通的循环
+
+
+
      */
     @Test
     public void test1(){
@@ -134,7 +148,30 @@ public class ListTest {
 
     @Test
     public void test3(){
+        ArrayList list = new ArrayList();
+        list.add(123);
+        list.add(456);
+        list.add("AA");
 
+        // 方式一: Iterator迭代器方式
+        Iterator iterator = list.iterator();
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
+
+        System.out.println("********************");
+
+        // 方式二: 增强for循环
+        for(Object obj: list){
+            System.out.println(obj);
+        }
+
+        System.out.println("********************");
+
+        // 方式三: 普通的for循环
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
 
 
     }
