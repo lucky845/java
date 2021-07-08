@@ -18,7 +18,7 @@ import java.util.Set;
  *
  * 1. Set接口中没有额外定义新的方法，使用的都是Collection中声明的方法
  *
- * 2. 要求： 向Set中添加的数据，其所在的类一定会给要重写hashCode()和equals()
+ * 2. 要求： 向Set(主要指：HashSet、LinkedHashSet)中添加的数据，其所在的类一定会给要重写hashCode()和equals()
  *    要求：重写的hashCode()和equals()尽可能保持一致性：相等的对象必须具有相等的散列码
  *      重写两个方法的小技巧： 对象中用作 equals() 方法比较的 Field，都应该用来计算 hashCode 值。
  *
