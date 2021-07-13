@@ -1,4 +1,4 @@
-package 泛型;
+package 泛型一;
 
 import org.junit.Test;
 
@@ -16,6 +16,9 @@ import java.util.*;
  *      比如:add(E e) ----> 实例化以后: add(Integer e)
  *  ④ 注意点:泛型类型必须是类,不能是基本数据类型.需要用到基本数据类型的位置,拿包装类来替换
  *  ⑤ 如果实例化时,没有指明泛型的类型.默认类型为java.long.Object类型
+ *
+ * 3.如何自定义泛型结构: 泛型类、泛型接口;泛型方法
+ *
  *
  *
  *

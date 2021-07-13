@@ -23,7 +23,7 @@ public class Test3 {
 
         try {
             Properties pros = new Properties();
-            fis =  new FileInputStream("D:\\应用软件\\Java\\day07\\Student.properties");
+            fis =  new FileInputStream("D:\\应用软件\\Java\\day07\\Student.txt");
             pros.load(fis);
             Object surname = pros.get("surname");
             Object name = pros.get("name");

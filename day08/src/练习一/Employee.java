@@ -1,4 +1,4 @@
-package 练习;
+package 练习一;
 
 /**
  * 定义一个 Employee 类。
