@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/day08/src/泛型三/GenericPerson.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day09/dbcp_gbk.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/1.html" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
