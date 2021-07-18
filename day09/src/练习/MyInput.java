@@ -2,7 +2,9 @@ package 练习;
 // MyInput.java: Contain the methods for reading int, double, float, boolean, short, byte and
 // string values from the keyboard
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class MyInput {
     // Read a string from the keyboard

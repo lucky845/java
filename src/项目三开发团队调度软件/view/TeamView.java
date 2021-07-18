@@ -1,7 +1,10 @@
 package 项目三开发团队调度软件.view;
 
-import 项目三开发团队调度软件.domain.*;
-import 项目三开发团队调度软件.service.*;
+import 项目三开发团队调度软件.domain.Employee;
+import 项目三开发团队调度软件.domain.Programmer;
+import 项目三开发团队调度软件.service.NameListService;
+import 项目三开发团队调度软件.service.TeamException;
+import 项目三开发团队调度软件.service.TeamService;
 
 public class TeamView {
 

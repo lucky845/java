@@ -14,7 +14,9 @@ public class IOExp {
     }
 }
  */
-import java.io.*;
+
+import java.io.FileInputStream;
+import java.io.IOException;
 
 public class IOExp {
     public static void main(String[] args) {

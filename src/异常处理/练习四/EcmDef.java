@@ -1,7 +1,5 @@
 package 异常处理.练习四;
 
-import java.util.Scanner;
-
 /*
 编写应用程序EcmDef.java，接收命令行的两个参数，要求不能输入负数，计算
 两数相除。
