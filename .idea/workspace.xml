@@ -5,175 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="492626fe-a2cb-4570-83d1-0b9a8583d43f" name="默认变更列表" comment="练习">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/HelloThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/HelloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/MThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/ThreadMethodTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/ThreadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/ThreadTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/Window.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/Window1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/WindowTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/多线程一/WindowTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/练习一/MyThread1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/练习一/MyThread2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/练习一/ThreadDemo$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/练习一/ThreadDemo$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day01/多线程/练习一/ThreadDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day04/练习/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day04/练习/dayExer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day04/练习/dayExer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举类/Info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举类/Season.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举类/Season1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举类/Season1$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举类/Season1$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举类/Season1$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举类/Season1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举类/SeasonTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举类/SeasonTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/Color.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/ColorTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/ColorTest$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/ColorTest$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/ColorTest$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/ColorTest$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/ColorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/MothTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/ReflectColor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/WeekTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/WeekTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/枚举练习/Works.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解/AnnotationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解/Generic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解/Info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解/MyAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解/MyAnnotations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解练习/MyTiger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解练习/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解练习/TestWeek$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解练习/TestWeek.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/注解练习/WeekTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day05/集合/CollectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/练习/ListExer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/集合一/CollectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/集合一/ForTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/集合一/IteratorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/集合一/ListTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/集合一/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/集合二/SetTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/集合二/TreeSetTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/集合二/TreeSetTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day06/集合二/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习一/CollectionTest$Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习一/CollectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习三/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习三/Test2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习三/Test2$Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习三/Test2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习三/Test3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习三/Test4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习二/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习二/EmployeeTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习二/EmployeeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/练习二/MyDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/集合/CollectionsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/集合/MapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/集合/PropertiesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/集合/TreeMapTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/集合/TreeMapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day07/集合/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/IO流/FileTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型一/GenericTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型一/GenericTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型一/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型一/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型一/SubOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型一/SubOrder1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型三/Contact.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型三/GenericPerson.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型三/GenericTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型三/Info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型三/Introduction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型三/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型三/Person1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型三/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型二/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型二/CustomerDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型二/DAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型二/DAOTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型二/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/泛型二/StudentDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习一/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习一/EmployeeTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习一/EmployeeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习一/MyDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习三/FileDome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习三/FindJPGFileTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习三/FindJPGFileTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习三/ListFilesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习二/DAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习二/DAOTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day08/练习二/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day09/IO流/BufferedTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day09/IO流/FileInputStreamFileOutputStreamTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day09/IO流/FileReaderWriterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day09/IO流/InputStreamReaderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day09/IO流/OtherStreamTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day09/练习/MyInput.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day09/练习/PictureTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day09/练习/WordCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/IO流/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/IO流/ByteArrayOutputStreamTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/IO流/FileUtilsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/IO流/FilesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/IO流/ObjectInputStreamOutputStreamTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/IO流/PathTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/IO流/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/IO流/RandomAccessFileTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/网络编程/InetAddressTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/网络编程/TCPTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/网络编程/TCPTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/网络编程/TCPTest3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/网络编程/UDPTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/网络编程/URLTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day10/网络编程/URLTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/jdbc1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射一/ClassLoaderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射一/NewInstanceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射一/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射一/ReflectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射三/FieldTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射三/OtherTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射三/ReflectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射三/methodTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射二/Creature.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射二/MyAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射二/MyInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day11/反射二/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day12/java8新特性一/LambdaTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/myproject03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/domain/Architect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/domain/Designer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/domain/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/domain/Equipment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/domain/NoteBook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/domain/PC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/domain/Printer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/domain/Programmer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/junit/NameListServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/service/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/service/NameListService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/service/Status.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/service/TeamException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/service/TeamService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/service/TeamService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/view/TSUtility.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/myproject03/src/view/TeamView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性一/LambdaTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性一/LambdaTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性一/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性三/StreamAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性三/StreamAPITest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性三/StreamTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性二/ConstructorRefTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性二/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性二/EmployeeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性二/MethodRefTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性四/Boy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性四/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性四/OptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/src/反射/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/day13.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/src/java8新特性一/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/src/java8新特性一/LambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/src/反射/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/src/反射/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12/java8新特性一/LambdaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12/java8新特性一/LambdaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,8 +83,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="60080165-14aa-4735-b6c3-0c62016aa434" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1vTeBOwfyKFvVolSEblT9TmXrxU" />
   <component name="ProjectLevelVcsManager">
@@ -240,6 +98,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -252,7 +111,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myproject01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day12/src/java新特性二" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -261,10 +120,11 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java工作空间(IDEA)\JavaSE高级\day12\src\java新特性二" />
       <recent name="D:\java工作空间(IDEA)\JavaSE高级\day01\src\多线程\练习一" />
       <recent name="D:\java工作空间(IDEA)\JavaSE高级\day01\src\多线程\多线程一" />
     </key>
@@ -272,46 +132,7 @@
       <recent name="D:\java工作空间(IDEA)\JavaSE高级\day01\src\多线程\多线程一" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.TeamView (1)">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="多线程.多线程一.HelloWorld" />
-      <module name="day01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="多线程.多线程一.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeamView (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.view.TeamView" />
-      <module name="myproject03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeamView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="项目三开发团队调度软件.view.TeamView" />
-      <module name="JavaSE高级" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="项目三开发团队调度软件.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OptionalTest.test5">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -325,27 +146,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8新特性一.*" />
+          <option name="PATTERN" value="java8新特性四.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java8新特性一" />
-      <option name="MAIN_CLASS_NAME" value="java8新特性一.LambdaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="java8新特性四" />
+      <option name="MAIN_CLASS_NAME" value="java8新特性四.OptionalTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8新特性四.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java8新特性四" />
+      <option name="MAIN_CLASS_NAME" value="java8新特性四.OptionalTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8新特性四.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java8新特性四" />
+      <option name="MAIN_CLASS_NAME" value="java8新特性四.OptionalTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8新特性四.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java8新特性四" />
+      <option name="MAIN_CLASS_NAME" value="java8新特性四.OptionalTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8新特性三.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java8新特性三" />
+      <option name="MAIN_CLASS_NAME" value="java8新特性三.StreamTest2" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.TeamView (1)" />
-        <item itemvalue="应用程序.HelloWorld" />
-        <item itemvalue="JUnit.LambdaTest" />
-        <item itemvalue="应用程序.TeamView" />
+        <item itemvalue="JUnit.OptionalTest.test5" />
+        <item itemvalue="JUnit.OptionalTest.test4" />
+        <item itemvalue="JUnit.OptionalTest.test3" />
+        <item itemvalue="JUnit.OptionalTest.test1" />
+        <item itemvalue="JUnit.StreamTest2.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +251,13 @@
       <workItem from="1626592893405" duration="3347000" />
       <workItem from="1626596281901" duration="2150000" />
       <workItem from="1626598560502" duration="2444000" />
-      <workItem from="1626601107517" duration="6423000" />
+      <workItem from="1626601107517" duration="8837000" />
+      <workItem from="1626661506032" duration="94000" />
+      <workItem from="1626661683784" duration="45000" />
+      <workItem from="1626661745191" duration="124000" />
+      <workItem from="1626661883455" duration="174000" />
+      <workItem from="1626662352730" duration="3694000" />
+      <workItem from="1626673037819" duration="27544000" />
     </task>
     <task id="LOCAL-00001" summary="练习">
       <created>1626591096499</created>
@@ -408,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626602570095</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="练习">
+      <created>1626608759195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626608759195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +329,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github/javaSE高级" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
