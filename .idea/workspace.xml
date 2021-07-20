@@ -5,28 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="492626fe-a2cb-4570-83d1-0b9a8583d43f" name="默认变更列表" comment="练习">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性一/LambdaTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性一/LambdaTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性一/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性三/StreamAPITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性三/StreamAPITest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性三/StreamTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性二/ConstructorRefTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性二/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性二/EmployeeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性二/MethodRefTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性四/Boy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性四/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/java8新特性四/OptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12/src/反射/StaticProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/day13.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/hello1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/java10新特性/Java10Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/java11新特性/Java11Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/java9新特性/Java9Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/java9新特性/Java9Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/java9新特性/Java9Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/java9新特性/ModuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/java9新特性/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/java9新特性/MyInterfaceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/src/java9新特性/OptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java9test/java9test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java9test/src/java9a/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java9test/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/src/java8新特性一/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/src/java8新特性一/LambdaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/src/反射/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/src/反射/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day12/java8新特性一/LambdaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12/java8新特性一/LambdaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/day01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day01/day01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/day02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day02/day02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03/day03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day03/day03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/day04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day04/day04.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/day05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day05/day05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/day06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day06/day06.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/day07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day07/day07.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08/day08.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day08/day08.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09/day09.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day09/day09.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/day10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day10/day10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/day11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day11/day11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/day12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day12/day12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/day13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day13/day13.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject01/myproject01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myproject01/myproject01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject01/src/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/myproject01/src/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject02/myproject02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myproject02/myproject02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject03/myproject03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myproject03/myproject03.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -111,7 +124,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day12/src/java新特性二" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day13/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -120,19 +133,24 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java工作空间(IDEA)\JavaSE高级\day13\src" />
+      <recent name="D:\java工作空间(IDEA)\JavaSE高级\day13\src\java9新特性" />
       <recent name="D:\java工作空间(IDEA)\JavaSE高级\day12\src\java新特性二" />
       <recent name="D:\java工作空间(IDEA)\JavaSE高级\day01\src\多线程\练习一" />
       <recent name="D:\java工作空间(IDEA)\JavaSE高级\day01\src\多线程\多线程一" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java工作空间(IDEA)\JavaSE高级\day13\src" />
+      <recent name="D:\java工作空间(IDEA)\JavaSE高级\day13\src\java9新特性" />
+      <recent name="D:\java工作空间(IDEA)\JavaSE高级\day13" />
       <recent name="D:\java工作空间(IDEA)\JavaSE高级\day01\src\多线程\多线程一" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OptionalTest.test5">
+  <component name="RunManager" selected="JUnit.Java11Test.test2">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -146,81 +164,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day12" />
+    <configuration name="Java10Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8新特性四.*" />
+          <option name="PATTERN" value="java10新特性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java8新特性四" />
-      <option name="MAIN_CLASS_NAME" value="java8新特性四.OptionalTest" />
+      <option name="PACKAGE_NAME" value="java10新特性" />
+      <option name="MAIN_CLASS_NAME" value="java10新特性.Java10Test" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day12" />
+    <configuration name="Java10Test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8新特性四.*" />
+          <option name="PATTERN" value="java10新特性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java8新特性四" />
-      <option name="MAIN_CLASS_NAME" value="java8新特性四.OptionalTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8新特性四.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java8新特性四" />
-      <option name="MAIN_CLASS_NAME" value="java8新特性四.OptionalTest" />
+      <option name="PACKAGE_NAME" value="java10新特性" />
+      <option name="MAIN_CLASS_NAME" value="java10新特性.Java10Test" />
       <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day12" />
+    <configuration name="Java11Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8新特性四.*" />
+          <option name="PATTERN" value="java11新特性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java8新特性四" />
-      <option name="MAIN_CLASS_NAME" value="java8新特性四.OptionalTest" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="java11新特性" />
+      <option name="MAIN_CLASS_NAME" value="java11新特性.Java11Test" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day12" />
+    <configuration name="Java11Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8新特性三.*" />
+          <option name="PATTERN" value="java11新特性.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java8新特性三" />
-      <option name="MAIN_CLASS_NAME" value="java8新特性三.StreamTest2" />
+      <option name="PACKAGE_NAME" value="java11新特性" />
+      <option name="MAIN_CLASS_NAME" value="java11新特性.Java11Test" />
       <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java9Test2.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java9新特性.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java9新特性" />
+      <option name="MAIN_CLASS_NAME" value="java9新特性.Java9Test2" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OptionalTest.test5" />
-        <item itemvalue="JUnit.OptionalTest.test4" />
-        <item itemvalue="JUnit.OptionalTest.test3" />
-        <item itemvalue="JUnit.OptionalTest.test1" />
-        <item itemvalue="JUnit.StreamTest2.test2" />
+        <item itemvalue="JUnit.Java11Test.test2" />
+        <item itemvalue="JUnit.Java11Test.test1" />
+        <item itemvalue="JUnit.Java10Test.test4" />
+        <item itemvalue="JUnit.Java10Test.test1" />
+        <item itemvalue="JUnit.Java9Test2.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +275,10 @@
       <workItem from="1626661745191" duration="124000" />
       <workItem from="1626661883455" duration="174000" />
       <workItem from="1626662352730" duration="3694000" />
-      <workItem from="1626673037819" duration="27544000" />
+      <workItem from="1626673037819" duration="28165000" />
+      <workItem from="1626753384712" duration="5245000" />
+      <workItem from="1626763792604" duration="10687000" />
+      <workItem from="1626775135659" duration="7731000" />
     </task>
     <task id="LOCAL-00001" summary="练习">
       <created>1626591096499</created>
@@ -308,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626608759195</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="练习">
+      <created>1626712200476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626712200476</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
