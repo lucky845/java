@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/01.HTML&amp;CSS/01.HTML&amp;CSS.iml" filepath="$PROJECT_DIR$/01.HTML&amp;CSS/01.HTML&amp;CSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02.JavaScript/02.JavaScript.iml" filepath="$PROJECT_DIR$/02.JavaScript/02.JavaScript.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaWEB.iml" filepath="$PROJECT_DIR$/javaWEB.iml" />
     </modules>
   </component>
