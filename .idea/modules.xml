@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/01.HTML&amp;CSS/01.HTML&amp;CSS.iml" filepath="$PROJECT_DIR$/01.HTML&amp;CSS/01.HTML&amp;CSS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02.JavaScript/02.JavaScript.iml" filepath="$PROJECT_DIR$/02.JavaScript/02.JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_HTML&amp;CSS/01_HTML&amp;CSS.iml" filepath="$PROJECT_DIR$/01_HTML&amp;CSS/01_HTML&amp;CSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_JavaScript/02_JavaScript.iml" filepath="$PROJECT_DIR$/02_JavaScript/02_JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_jQuery/03_JQuery.iml" filepath="$PROJECT_DIR$/03_jQuery/03_JQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_book_static/04_book_static.iml" filepath="$PROJECT_DIR$/04_book_static/04_book_static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_XML/05_XML.iml" filepath="$PROJECT_DIR$/05_XML/05_XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_Tomcat/06_Tomcat.iml" filepath="$PROJECT_DIR$/06_Tomcat/06_Tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaWEB.iml" filepath="$PROJECT_DIR$/javaWEB.iml" />
     </modules>
   </component>

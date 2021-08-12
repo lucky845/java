@@ -1,84 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="06_Tomcat" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aafb9bf-69ad-4901-9916-5e11ca64f0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/01.HTML&amp;CSS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/01.CSS基本语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/02.标签名选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/03.ID选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/04.class类型选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/05.组合选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/06-css常用样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/1-css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/2-css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/css/3-css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/0-标签语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/1.font标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/10.表单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/10.表单提交的细节.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/11.other.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/2.特殊字符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/3.内联框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/3.标题标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/4.超链接.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/5.img标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/6.表格标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/7.表格跨行跨列.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/8.iframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/html/9.列表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/01-hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/02-hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/02.JavaScript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/03-变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/04-关系运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/05-逻辑运算.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/05.DOM查询练习/dom查询.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/05.DOM查询练习/style/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/06-数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/07-函数的第一种定义方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/08-函数的第二种定义方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/09-js不允许函数重载.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/10-隐形参数arguments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/11-Object形式的自定义对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/12-大括号形式的自定义对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/Document/createElement.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/Document/getElementById.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/Document/getElementsByName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/Document/getElementsByTagName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/Document/regexp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/Document/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/Document/wrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/event/onblur.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/event/onchange.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/event/onclick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/event/onload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.JavaScript/event/onsubmit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="3aafb9bf-69ad-4901-9916-5e11ca64f0bf" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/06_Tomcat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/06_Tomcat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_7_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/03_JQuery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo01.入门/01.HelloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo01.入门/01.HelloWorld_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo01.入门/02.$的本质.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo01.入门/03.核心函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo01.入门/04.DOM对象和jQuery对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo02.选择器/01.基本选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo02.选择器/02.层次选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo02.选择器/03.基本的过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo02.选择器/04.内容过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo02.选择器/05.可见性过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo02.选择器/06.属性过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo02.选择器/08.表单对象属性过滤选择器__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo02.选择器/09.元素筛选方法__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo02.选择器/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo03.DOM操作/2、dom属性操作___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo03.DOM操作/3、dom增删改___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo03.DOM操作/style/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo03.DOM操作/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo03.DOM操作/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo03.DOM操作/test3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo04.CSS样式操作/jqueryCss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo04.CSS样式操作/jqueryCss___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo04.CSS样式操作/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/01.文档加载/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/01.文档加载/load.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/01.文档加载/load___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/02.事件绑定/bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/02.事件绑定/bind____.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/02.事件绑定/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/03.事件移除/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/03.事件移除/style/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/03.事件移除/style/css.css.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/03.事件移除/unbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/03.事件移除/unbind___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/04.事件冒泡/bubble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/04.事件冒泡/bubble___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/04.事件冒泡/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/05.事件对象/eventObj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/05.事件对象/eventObj__emp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo05.事件/05.事件对象/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo06.动画/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo06.动画/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo06.动画/动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/Demo06.动画/动画__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习01 选择器练习01 隔行变色/ex_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习01 选择器练习01 隔行变色/ex_3_emp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习01 选择器练习01 隔行变色/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习02 选择器练习02 全选全不选/ex-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习02 选择器练习02 全选全不选/ex-4__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/ex_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/ex_5_emp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/表单选择器练习_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习03 选择器练习03 表单选择器/表单选择器练习_5__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习04 DOM操作01 selected/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习04 DOM操作01 selected/selected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习04 DOM操作01 selected/selected空白.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习04 DOM操作01 selected/从左到右，从右到左.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习04 DOM操作01 selected/从左到右，从右到左__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/ex-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/ex-5___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/styleB/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/添加删除记录-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习05 DOM操作02 添加删除记录/添加删除记录-5___.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/displaydcs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/displaydcs__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/img/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/img/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习06 CSS_动画 品牌展示/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习07 事件 图片跟随/img/big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习07 事件 图片跟随/img/small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习07 事件 图片跟随/imgFollow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习07 事件 图片跟随/imgFollow__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_jQuery/Demo/练习/☆练习07 事件 图片跟随/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/04_book_static.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/cart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/cart/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/manager/book_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/manager/book_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/manager/manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/manager/order_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/order/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/user/login_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/user/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/pages/user/regist_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/static/img/code.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/static/img/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/static/img/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/static/img/pwd-icons-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_book_static/static/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_XML/05_XML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_XML/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_XML/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_XML/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_XML/src/books.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_XML/src/com/xml/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_XML/src/com/xml/pojo/Dome4JTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_XML/xml/book.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/06_Tomcat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/src/com/tomcat/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/commons-dbutils-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/druid-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/gson-2.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Tomcat/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/01.HTML&amp;CSS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/01_HTML&amp;CSS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/01.CSS基本语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/01.CSS基本语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/02.标签名选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/02.标签名选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/03.ID选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/03.ID选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/04.class类型选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/04.class类型选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/05.组合选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/05.组合选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/06-css常用样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/06-css常用样式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/1-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/1-css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/1.css" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/2-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/2-css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/css/3-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/css/3-css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/0-标签语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/0-标签语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/1.font标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/1.font标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/10.表单.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/10.表单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/10.表单提交的细节.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/10.表单提交的细节.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/11.other.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/11.other.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/2.特殊字符.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/2.特殊字符.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/3.内联框架.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/3.内联框架.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/3.标题标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/3.标题标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/4.超链接.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/4.超链接.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/5.img标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/5.img标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/6.表格标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/6.表格标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/7.表格跨行跨列.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/7.表格跨行跨列.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/8.iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/8.iframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/html/9.列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/html/9.列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.HTML&amp;CSS/imgs/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01_HTML&amp;CSS/imgs/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/01-hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/01-hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/02-hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/02-hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/02.JavaScript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/02_JavaScript.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/03-变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/03-变量.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/04-关系运算.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/04-关系运算.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/05-逻辑运算.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/05-逻辑运算.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/05.DOM查询练习/dom查询.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/05.DOM查询练习/dom查询.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/05.DOM查询练习/style/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/05.DOM查询练习/style/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/06-数组.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/06-数组.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/07-函数的第一种定义方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/07-函数的第一种定义方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/08-函数的第二种定义方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/08-函数的第二种定义方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/09-js不允许函数重载.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/09-js不允许函数重载.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/10-隐形参数arguments.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/10-隐形参数arguments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/11-Object形式的自定义对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/11-Object形式的自定义对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/12-大括号形式的自定义对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/12-大括号形式的自定义对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/Document/createElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/Document/createElement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/Document/getElementById.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/Document/getElementById.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/Document/getElementsByName.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/Document/getElementsByName.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/Document/getElementsByTagName.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/Document/getElementsByTagName.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/Document/regexp.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/Document/regexp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/Document/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/Document/right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/Document/wrong.png" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/Document/wrong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/event/onblur.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/event/onblur.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/event/onchange.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/event/onchange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/event/onclick.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/event/onclick.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/event/onload.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/event/onload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.JavaScript/event/onsubmit.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_JavaScript/event/onsubmit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaWEB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaWEB.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +225,39 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="gitee/javaWEB" />
+                <branch-info repo="$PROJECT_DIR$" source="github/javaWEB" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -102,39 +267,66 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1wXPDRrUtneZ0nSpTbcg6wbQd6s" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="idea.background.editor" value="C:\Users\12876\Pictures\Saved Pictures\公主连接.jpg,15,scale,center" />
+    <property name="jdk.selected.JAVA_MODULE" value="16" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/06_Tomcat_war_exploded" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="project.structure.last.edited" value="工件" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.16447371" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java工作空间(IDEA)\javaWEB\02.JavaScript" />
-      <recent name="D:\java工作空间(IDEA)\javaWEB\02.JavaScript\Document" />
-      <recent name="D:\java工作空间(IDEA)\javaWEB\imgs" />
+      <recent name="D:\java工作空间(IDEA)\javaWEB\06_Tomcat\web\WEB-INF\lib" />
       <recent name="D:\java工作空间(IDEA)\javaWEB" />
+      <recent name="D:\java工作空间(IDEA)\javaWEB\05_XML\lib" />
+      <recent name="D:\java工作空间(IDEA)\javaWEB\04_book_static\static" />
+      <recent name="D:\java工作空间(IDEA)\javaWEB\05_book_static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java工作空间(IDEA)\javaWEB\03_jQuery\Demo\Demo03.DOM操作" />
+      <recent name="D:\java工作空间(IDEA)\javaWEB\03_jQuery\Demo\Demo02.选择器" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\01.HTML&amp;CSS" />
       <recent name="D:\java工作空间(IDEA)\javaWEB" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.createElement.html">
+  <component name="RunManager" selected="Tomcat 服务器.06_Tomcat">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -146,28 +338,150 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="createElement.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javaWEB/02.JavaScript/Document/createElement.html" useBuiltInWebServerPort="true">
+    <configuration name="Dome4JTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05_XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xml.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xml.pojo" />
+      <option name="MAIN_CLASS_NAME" value="com.xml.pojo.Dome4JTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dome4JTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05_XML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xml.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xml.pojo" />
+      <option name="MAIN_CLASS_NAME" value="com.xml.pojo.Dome4JTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2、dom属性操作___.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javaWEB/03_jQuery/Demo/Demo03.DOM操作/2、dom属性操作___.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="dom查询.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javaWEB/02.JavaScript/05.DOM查询练习/dom查询.html" useBuiltInWebServerPort="true">
+    <configuration name="3、dom增删改___.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javaWEB/03_JQuery/Demo/Demo03.DOM操作/3、dom增删改___.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="getElementById.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javaWEB/02.JavaScript/Document/getElementById.html" useBuiltInWebServerPort="true">
+    <configuration name="regist.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javaWEB/04_book_static/pages/user/regist.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="getElementsByName.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javaWEB/02.JavaScript/Document/getElementsByName.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+    <configuration name="06_Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.0-M2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/06_Tomcat" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="06_Tomcat">
+          <settings>
+            <option name="CONTEXT_PATH" value="/06_Tomcat" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="43aca897-2520-472d-bd4c-a995b47abc66" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6197" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="06_Tomcat" />
+        </option>
+      </method>
     </configuration>
-    <configuration name="getElementsByTagName.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javaWEB/02.JavaScript/Document/getElementsByTagName.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="JavaScript 调试.2、dom属性操作___.html" />
+      <item itemvalue="JavaScript 调试.3、dom增删改___.html" />
+      <item itemvalue="JavaScript 调试.regist.html" />
+      <item itemvalue="JUnit.Dome4JTest.test1" />
+      <item itemvalue="JUnit.Dome4JTest.test2" />
+      <item itemvalue="Tomcat 服务器.06_Tomcat" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.createElement.html" />
-        <item itemvalue="JavaScript Debug.dom查询.html" />
-        <item itemvalue="JavaScript Debug.getElementsByTagName.html" />
-        <item itemvalue="JavaScript Debug.getElementsByName.html" />
-        <item itemvalue="JavaScript Debug.getElementById.html" />
+        <item itemvalue="JUnit.Dome4JTest.test2" />
+        <item itemvalue="JUnit.Dome4JTest.test1" />
+        <item itemvalue="JavaScript 调试.regist.html" />
+        <item itemvalue="JavaScript 调试.3、dom增删改___.html" />
+        <item itemvalue="JavaScript 调试.2、dom属性操作___.html" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +494,31 @@
       <option name="presentableId" value="Default" />
       <updated>1628559838718</updated>
       <workItem from="1628559840455" duration="31037000" />
+      <workItem from="1628601844999" duration="197000" />
+      <workItem from="1628641273936" duration="222000" />
+      <workItem from="1628641512387" duration="5572000" />
+      <workItem from="1628669381058" duration="1118000" />
+      <workItem from="1628670521053" duration="11419000" />
+      <workItem from="1628682354499" duration="19569000" />
+      <workItem from="1628705490890" duration="952000" />
+      <workItem from="1628706499744" duration="254000" />
+      <workItem from="1628743804929" duration="21304000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1628601884065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628601884065</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".">
+      <created>1628601899257</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628601899257</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,5 +534,22 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="i" language="JavaScript" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
