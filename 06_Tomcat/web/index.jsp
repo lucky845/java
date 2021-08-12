@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  这是06_Tomcat的index.jsp
+  <h1>这是06_Tomcat的index.jsp</h1>
   </body>
 </html>
