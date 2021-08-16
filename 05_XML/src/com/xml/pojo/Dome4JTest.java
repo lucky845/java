@@ -30,8 +30,8 @@ public class Dome4JTest {
     }
 
     /***
+     * 读取books.xml文件生成Book类
      * @Author lichuang
-     * @Description //TODO 读取books.xml文件生成Book类
      * @Date 2021/8/12 17:15
      * @param
      * @return void
