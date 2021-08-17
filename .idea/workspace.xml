@@ -10,112 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aafb9bf-69ad-4901-9916-5e11ca64f0bf" name="Default Changelist" comment="new code">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/10_cookie_session_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tmp_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/10_cookie&amp;session.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/src/com/cookie/servlet/BaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/src/com/cookie/servlet/CookieServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/src/com/cookie/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/src/com/cookie/servlet/SessionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/src/com/cookie/util/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/web/cookie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_cookie&amp;session/web/session.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/book/pojo/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/book/web/ClientBookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/web/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/web/pages/client/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/web/pages/common/page_nav.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/src/com/tmp/servlet/RegistServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/tmp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/web/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/web/ok.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/web/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139/entities/entities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139/entities/entities.dat.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f842f32a-0807-4f11-a169-7cad00c86139/entities/entities.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/sql/book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/book/sql/book.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/dao/BookDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/dao/impl/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/dao/impl/BookDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/pojo/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/server/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/server/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/server/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/server/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/test/BookDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/test/BookDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/test/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/test/BookServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/utils/WebUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/web/BaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/web/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/web/BookServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/web/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/common/login_sucess_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/login_sucess_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/06_Tomcat_war_exploaded/WEB-INF/classes/com/tomcat/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/06_Tomcat_war_exploaded/WEB-INF/classes/com/tomcat/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/BookDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/impl/BookDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/impl/BookDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/pojo/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/pojo/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/server/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/server/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/server/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/server/impl/BookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/test/BookDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/test/BookDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/test/BookServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/test/BookServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/utils/WebUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/utils/WebUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/BaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/BookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/login_sucess_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/login_sucess_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/05_XML/com/xml/pojo/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/05_XML/com/xml/pojo/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/05_XML/com/xml/pojo/Dome4JTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/05_XML/com/xml/pojo/Dome4JTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/06_Tomcat/com/tomcat/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/06_Tomcat/com/tomcat/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/ContestServlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/ContestServlet1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/ContextServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/ContextServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/ContextServlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/ContextServlet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/HelloServlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/HelloServlet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/HelloServlet3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet/HelloServlet3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/ForwardC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/ForwardC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/ParameterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/ParameterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/RequestAPIServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/RequestAPIServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/Response1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/Response1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/Response2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/Response2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/ResponseIOServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/ResponseIOServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/Servlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/Servlet1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/Servlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/07_servlet/com/servlet2/Servlet2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/08_jsp/com/jsp/listener/MyServletContextListenerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/08_jsp/com/jsp/listener/MyServletContextListenerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/08_jsp/com/jsp/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/08_jsp/com/jsp/pojo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/08_jsp/com/jsp/servlet/PringHtml.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/08_jsp/com/jsp/servlet/PringHtml.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/08_jsp/com/jsp/servlet/SearchStudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/08_jsp/com/jsp/servlet/SearchStudentServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/dao/BookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/dao/BookDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/dao/impl/BookDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/dao/impl/BookDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/pojo/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/pojo/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/server/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/server/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/server/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/server/impl/BookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/test/BookDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/test/BookDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/test/BookServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/test/BookServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/utils/WebUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/utils/WebUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/web/BaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/web/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/web/BookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/web/UserServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +141,7 @@
     <property name="project.structure.last.edited" value="库" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16447371" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -1073,7 +970,8 @@
       <workItem from="1629182082153" duration="251000" />
       <workItem from="1629182363791" duration="8135000" />
       <workItem from="1629191728196" duration="2001000" />
-      <workItem from="1629195458348" duration="12163000" />
+      <workItem from="1629195458348" duration="14811000" />
+      <workItem from="1629214317724" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1628601884065</created>
@@ -1124,7 +1022,28 @@
       <option name="project" value="LOCAL" />
       <updated>1629121218552</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new code">
+      <created>1629208945569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629208945569</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new code">
+      <created>1629208959596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629208959596</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new code">
+      <created>1629208967748</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629208967748</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
