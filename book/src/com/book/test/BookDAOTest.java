@@ -3,6 +3,7 @@ package com.book.test;
 import com.book.dao.BookDAO;
 import com.book.dao.impl.BookDAOImpl;
 import com.book.pojo.Book;
+import com.book.pojo.Page;
 import org.junit.Test;
 
 import java.math.BigDecimal;
@@ -39,6 +40,30 @@ public class BookDAOTest {
     public void queryBooks() {
         for (Book queryBooks: bookDAO.queryBooks()) {
             System.out.println(queryBooks);
+        }
+    }
+
+    @Test
+    public void queryForPageTotalCount() {
+        System.out.println(bookDAO.queryForPageTotalCount());
+    }
+
+    @Test
+    public void queryForPageTotalCountByPrice() {
+        System.out.println(bookDAO.queryForPageTotalCountByPrice(10,50));
+    }
+
+    @Test
+    public void queryForPageItems() {
+        for (Book book : bookDAO.queryForPageItems(2, Page.PAGE_SIZE)) {
+            System.out.println(book);
+        }
+    }
+
+    @Test
+    public void queryForPageItemsByPrice() {
+        for (Book book : bookDAO.queryForPageItemsByPrice(2, Page.PAGE_SIZE,10,50)) {
+            System.out.println(book);
         }
     }
 }

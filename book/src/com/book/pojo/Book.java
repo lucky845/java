@@ -14,7 +14,7 @@ public class Book {
     private BigDecimal price;
     private Integer sales;
     private Integer stock;
-    private String imgpath = "static/img/default.jpg";
+    private String imgPath = "static/img/default.jpg";
 
     public Book() {
     }
@@ -27,8 +27,8 @@ public class Book {
         this.sales = sales;
         this.stock = stock;
         // 要求给定的图书封面图书路径不能为空
-        if(imgpath != null && !"".equals(imgpath)) {
-            this.imgpath = imgpath;
+        if(imgPath != null && !"".equals(imgPath)) {
+            this.imgPath = imgPath;
         }
     }
 
@@ -80,14 +80,14 @@ public class Book {
         this.stock = stock;
     }
 
-    public String getImgpath() {
-        return imgpath;
+    public String getImgPath() {
+        return imgPath;
     }
 
-    public void setImgpath(String imgpath) {
+    public void setImgPath(String imgPath) {
         // 要求给定的图书封面图书路径不能为空
-        if(imgpath != null && !"".equals(imgpath)) {
-            this.imgpath = imgpath;
+        if(imgPath != null && !"".equals(imgPath)) {
+            this.imgPath = imgPath;
         }
     }
 
@@ -100,7 +100,7 @@ public class Book {
                 ", price=" + price +
                 ", sales=" + sales +
                 ", stock=" + stock +
-                ", imgpath='" + imgpath + '\'' +
+                ", imgPath='" + imgPath + '\'' +
                 '}';
     }
 }

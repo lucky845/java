@@ -1,6 +1,7 @@
 package com.book.server;
 
 import com.book.pojo.Book;
+import com.book.pojo.Page;
 
 import java.util.List;
 
@@ -20,4 +21,7 @@ public interface BookService {
 
     public List<Book> queryBooks();
 
+    public Page<Book> page(int pageNo, int pageSize);
+
+    Page<Book> pageByprice(int pageNo, int pageSize, int min, int max);
 }

@@ -9,6 +9,6 @@
 
 <div id="bottom">
 		<span>
-			在线书城.Copyright &copy;2021
+			网上书城.Copyright &copy;2021
 		</span>
 </div>

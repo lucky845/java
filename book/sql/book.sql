@@ -104,4 +104,6 @@ values (null, '人月神话', '刚哥', 88.15, 20, 80, 'static/img/default.jpg')
 select id, name, author, price, sales, stock, img_path
 from t_book;
 
+## 查看分页情况
+select * from t_book limit 0 , 4;
 

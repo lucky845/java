@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
+
 /**
  * @author lichuang
  * @create 2021-08-16 15:37
@@ -41,10 +43,11 @@ public class UserServlet extends BaseServlet {
             req.getRequestDispatcher("/pages/user/login.jsp").forward(req, resp);
         } else {
             // 登录 成功
+            // 保存用户登录后的信息到Session域中
+            req.getSession().setAttribute("user",loginUser);
             //跳到成功页面login_success.html
             req.getRequestDispatcher("/pages/user/login_success.jsp").forward(req, resp);
         }
-
     }
 
     /**
@@ -56,6 +59,11 @@ public class UserServlet extends BaseServlet {
      * @return void
      */
     protected void regist(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // 获取Session中的验证码
+        String token = (String) req.getSession().getAttribute(KAPTCHA_SESSION_KEY);
+        // 删除验证码
+        req.getSession().removeAttribute(KAPTCHA_SESSION_KEY);
+
         //  1、获取请求的参数
         String username = req.getParameter("username");
         String password = req.getParameter("password");
@@ -65,7 +73,7 @@ public class UserServlet extends BaseServlet {
         User user = WebUtils.copyParamToBean(req.getParameterMap(),new User());
 
 //        2、检查 验证码是否正确  === 写死,要求验证码为:abcde
-        if ("abcde".equalsIgnoreCase(code)) {
+        if (token != null && token.equalsIgnoreCase(code)) {
 //        3、检查 用户名是否可用
             if (userService.existsUsername(username)) {
                 System.out.println("用户名[" + username + "]已存在!");
@@ -94,6 +102,21 @@ public class UserServlet extends BaseServlet {
             System.out.println("验证码[" + code + "]错误");
             req.getRequestDispatcher("/pages/user/regist.jsp").forward(req, resp);
         }
-
     }
+
+    /**
+     * 注销
+     * @Author lichuang
+     * @Date 2021/8/17 20:31
+     * @param req
+     * @param resp
+     * @return void
+     */
+    protected void logout(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // 1、销毁 Session 中用户登录的信息（或者销毁 Session）
+        req.getSession().invalidate();
+        // 2、重定向到首页（或登录页面）。
+        resp.sendRedirect(req.getContextPath());
+    }
+
 }

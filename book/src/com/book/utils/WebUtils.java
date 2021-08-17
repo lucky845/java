@@ -43,7 +43,7 @@ public class WebUtils {
         try {
             return Integer.parseInt(strInt);
         } catch (Exception e) {
-            e.printStackTrace();
+//            e.printStackTrace();
         }
         return defaultValue;
     }

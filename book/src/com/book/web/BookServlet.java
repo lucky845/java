@@ -1,6 +1,7 @@
 package com.book.web;
 
 import com.book.pojo.Book;
+import com.book.pojo.Page;
 import com.book.server.BookService;
 import com.book.server.impl.BookServiceImpl;
 import com.book.utils.WebUtils;
@@ -28,6 +29,8 @@ public class BookServlet extends BaseServlet{
      * @return void
      */
     protected void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"),0);
+        pageNo +=1;
         // 1、获取请求的参数==封装成为 Book 对象
         Book book = WebUtils.copyParamToBean(req.getParameterMap(),new Book());
         // 2、调用 BookService.addBook()保存图书
@@ -35,7 +38,7 @@ public class BookServlet extends BaseServlet{
         // 3、跳到图书列表页面
         // /manager/bookServlet?action=list
         // req.getRequestDispatcher("/manager/bookServlet?action=list").forward(req, resp); // 有bug：按F5表单会重复提交
-        resp.sendRedirect(req.getContextPath() + "/manager/bookServlet?action=list");
+        resp.sendRedirect(req.getContextPath() + "/manager/bookServlet?action=page&pageNo=" + pageNo);
     }
 
     /**
@@ -53,7 +56,7 @@ public class BookServlet extends BaseServlet{
         bookService.deleteBookById(id);
 //        3、重定向回图书列表管理页面
 //                /book/manager/bookServlet?action=list
-        resp.sendRedirect(req.getContextPath() + "/manager/bookServlet?action=list");
+        resp.sendRedirect(req.getContextPath() + "/manager/bookServlet?action=page&pageNo=" + req.getParameter("pageNo"));
     }
 
     /**
@@ -71,7 +74,7 @@ public class BookServlet extends BaseServlet{
         bookService.updateBook(book);
 //        3、重定向回图书列表管理页面
 //        地址：/工程名/manager/bookServlet?action=list
-        resp.sendRedirect(req.getContextPath() + "/manager/bookServlet?action=list");
+        resp.sendRedirect(req.getContextPath() + "/manager/bookServlet?action=page&pageNo=" + req.getParameter("pageNo"));
     }
 
     /**
@@ -108,5 +111,28 @@ public class BookServlet extends BaseServlet{
         req.setAttribute("books",books);
         // 3.请求转发到/pages/manager/book_manager.jsp页面
         req.getRequestDispatcher("/pages/manager/book_manager.jsp").forward(req, resp);
+    }
+
+    /**
+     * 处理分页功能
+     * @Author lichuang
+     * @Date 2021/8/16 22:08
+     * @param req
+     * @param resp
+     * @return void
+     */
+    protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //1 获取请求的参数 pageNo 和 pageSize
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 1);
+        int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
+        //2 调用BookService.page(pageNo，pageSize)：Page对象
+        Page<Book> page = bookService.page(pageNo,pageSize);
+
+        page.setUrl("manager/bookServlet?action=page");
+
+        //3 保存Page对象到Request域中
+        req.setAttribute("page",page);
+        //4 请求转发到pages/manager/book_manager.jsp页面
+        req.getRequestDispatcher("/pages/manager/book_manager.jsp").forward(req,resp);
     }
 }
