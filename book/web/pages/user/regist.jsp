@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>尚硅谷会员注册页面</title>
+	<title>在线会员注册页面</title>
 
 	<%--	静态包含 base标签、css样式、jQuery文件	--%>
 	<%@ include file="/pages/common/head.jsp"%>
@@ -118,7 +118,7 @@
 		<div class="login_form">
 			<div class="login_box">
 				<div class="tit">
-					<h1>注册尚硅谷会员</h1>
+					<h1>注册在线会员</h1>
 					<span class="errorMsg">
 <%--						<%=request.getAttribute("msg")==null?"":request.getAttribute("msg")%>--%>
 						${ requestScope.msg }

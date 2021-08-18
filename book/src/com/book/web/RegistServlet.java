@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * 注册功能实现
+ * 注册功能实现(已经合并到UserServlet)
  * @author lichuang
  * @create 2021-08-14 17:43
  */

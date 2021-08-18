@@ -8,13 +8,13 @@ import java.math.BigDecimal;
  */
 public class Book {
 
-    private Integer id;
-    private String name;
-    private String author;
-    private BigDecimal price;
-    private Integer sales;
-    private Integer stock;
-    private String imgPath = "static/img/default.jpg";
+    private Integer id; // 图书编号
+    private String name; // 图书名
+    private String author; // 作者
+    private BigDecimal price; // 单价价格
+    private Integer sales; // 销量
+    private Integer stock; // 库存
+    private String imgPath = "static/img/default.jpg"; // 默认展示图片地址
 
     public Book() {
     }

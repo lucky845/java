@@ -107,3 +107,26 @@ from t_book;
 ## 查看分页情况
 select * from t_book limit 0 , 4;
 
+###########################################################
+
+## 订单表
+CREATE TABLE t_order(
+                        `order_id` VARCHAR(50) PRIMARY KEY,  	##订单号
+                        `create_time` DATETIME ,	    ##订单时间
+                        `price` DECIMAL(11,2) ,	        ##总金额
+                        `status` INT, 	    ##物流状态：0-未发货、1-等待用户签收、2-用户已签收
+                        `user_id` INT ,			        ##用户编号
+                        FOREIGN KEY (`user_id`) REFERENCES t_user(`id`)
+);
+
+
+## 订单项
+CREATE TABLE t_order_item(
+                             `id` INT PRIMARY KEY AUTO_INCREMENT,
+                             `name` VARCHAR(100) ,		##商品名
+                             `count` int,                       ##商品数量
+                             `price` DECIMAL(11,2),			    ##商品单价
+                             `total_price` DECIMAL(11,2),		##商品总金额
+                             `order_id` VARCHAR(50) ,	##订单号
+                             FOREIGN KEY (`order_id`) REFERENCES t_order(`order_id`)
+);

@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>尚硅谷会员注册页面</title>
+	<title>在线会员注册页面</title>
 
 	<%--	静态包含 base标签、css样式、jQuery文件	--%>
 	<%@ include file="/pages/common/head.jsp"%>
@@ -26,7 +26,7 @@
 	<span class="wel_word"></span>
 
 	<%--	静态包含登录成功之后的菜单	--%>
-	<%@ include file="/pages/common/login_sucess_menu.jsp"%>
+	<%@ include file="/pages/common/login_success_menu.jsp"%>
 
 </div>
 

@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>尚硅谷会员注册页面</title>
+	<title>在线会员注册页面</title>
 	<!--写base标签，永远固定相对路径跳转的结果-->
 	<base href="http://localhost:8080/book/">
 	
@@ -24,7 +24,7 @@
 	<img class="logo_img" alt="" src="static/img/logo.gif">
 
 	<%--	静态包含登录成功之后的菜单	--%>
-	<%@ include file="/pages/common/login_sucess_menu.jsp"%>
+	<%@ include file="/pages/common/login_success_menu.jsp"%>
 
 </div>
 

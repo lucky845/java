@@ -7,10 +7,10 @@ package com.book.pojo;
  */
 public class User {
 
-    private Integer id;
-    private String username;
-    private String password;
-    private String email;
+    private Integer id; // 用户id
+    private String username; // 用户名
+    private String password; // 用户密码
+    private String email; // 邮箱
 
     public User() {
     }
