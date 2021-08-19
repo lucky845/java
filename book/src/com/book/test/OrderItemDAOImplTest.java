@@ -14,14 +14,20 @@ import java.math.BigDecimal;
  */
 public class OrderItemDAOImplTest {
 
+    OrderItemDAO orderItemDao = new OrderItemDAOImpl();
+
     @Test
     public void saveOrderItem() {
-        OrderItemDAO orderItemDao = new OrderItemDAOImpl();
         orderItemDao.saveOrderItem(new OrderItem(null,"java 从入门到精通", 1,new BigDecimal(100),new
                 BigDecimal(100),"1234567890"));
         orderItemDao.saveOrderItem(new OrderItem(null,"javaScript 从入门到精通", 2,new
                 BigDecimal(100),new BigDecimal(200),"1234567890"));
         orderItemDao.saveOrderItem(new OrderItem(null,"Netty 入门", 1,new BigDecimal(100),new
                 BigDecimal(100),"1234567890"));
+    }
+
+    @Test
+    public void queryOrderItemByOrderId() {
+        System.out.println(orderItemDao.queryOrderItemByOrderId("1234567890"));
     }
 }

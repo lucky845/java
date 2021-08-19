@@ -9,7 +9,7 @@ import com.book.server.UserService;
  * @author lichuang
  * @create 2021-08-14 17:18
  */
-public class UserServiceimpl implements UserService {
+public class UserServiceImpl implements UserService {
 
     private UserDAO userDAO = new UserDAOImpl();
 

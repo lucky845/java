@@ -37,5 +37,5 @@ public interface UserDAO {
      */
     public int saveUser(User user);
 
-
+    String queryUserById(Integer id);
 }

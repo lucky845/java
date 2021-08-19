@@ -2,7 +2,7 @@ package com.book.test;
 
 import com.book.pojo.User;
 import com.book.server.UserService;
-import com.book.server.impl.UserServiceimpl;
+import com.book.server.impl.UserServiceImpl;
 import org.junit.Test;
 
 /**
@@ -11,7 +11,7 @@ import org.junit.Test;
  */
 public class UserServiceimplTest {
 
-    UserService userService = new UserServiceimpl();
+    UserService userService = new UserServiceImpl();
 
     @Test
     public void registUser() {

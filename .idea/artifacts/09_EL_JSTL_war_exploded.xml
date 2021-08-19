@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="09_EL&amp;JSTL" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-io-1.4" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.1" />
+        </element>
       </element>
     </root>
   </artifact>

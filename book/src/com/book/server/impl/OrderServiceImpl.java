@@ -3,13 +3,16 @@ package com.book.server.impl;
 import com.book.dao.BookDAO;
 import com.book.dao.OrderDAO;
 import com.book.dao.OrderItemDAO;
+import com.book.dao.UserDAO;
 import com.book.dao.impl.BookDAOImpl;
 import com.book.dao.impl.OrderDAOImpl;
 import com.book.dao.impl.OrderItemDAOImpl;
+import com.book.dao.impl.UserDAOImpl;
 import com.book.pojo.*;
 import com.book.server.OrderService;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -22,6 +25,7 @@ public class OrderServiceImpl implements OrderService {
     private OrderDAO orderDAO = new OrderDAOImpl();
     private OrderItemDAO orderItemDAO = new OrderItemDAOImpl();
     private BookDAO bookDAO = new BookDAOImpl();
+    private UserDAO userDao = new UserDAOImpl();
 
     @Override
     public String createOrder(Cart cart, Integer userId) {
@@ -52,5 +56,49 @@ public class OrderServiceImpl implements OrderService {
         cart.clear();
 
         return orderId;
+    }
+
+    /**
+     * 管理员查询全部订单
+     * @return
+     */
+    @Override
+    public List<Order> queryOrders() {
+        return orderDAO.queryOrders();
+    }
+
+    /**
+     * 发货
+     * @param orderId
+     * @return
+     */
+    @Override
+    public int updateOrderByOrderId(String orderId, int status) {
+        return orderDAO.updateOrderByOrderId(orderId,status);
+    }
+
+    /**
+     * 管理员/用户查看订单详情
+     * @param orderId 通过订单号
+     * @return
+     */
+    @Override
+    public List<OrderItem> showOrderItem(String orderId) {
+        return orderItemDAO.queryOrderItemByOrderId(orderId);
+    }
+
+    /**
+     * 用户查看订单详情
+     * @param userId
+     * @return
+     */
+    @Override
+    public List<Order> queryOrdersById(Integer userId) {
+        return orderDAO.queryOrdersById(userId);
+    }
+
+    @Override
+    public String queryUserById(Integer id) {
+        return userDao.queryUserById(id);
     }
 }

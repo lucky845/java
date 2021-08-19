@@ -2,7 +2,7 @@ package com.book.web;
 
 import com.book.pojo.User;
 import com.book.server.UserService;
-import com.book.server.impl.UserServiceimpl;
+import com.book.server.impl.UserServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -18,7 +18,7 @@ import java.io.IOException;
  */
 public class LoginServlet extends HttpServlet {
 
-    private UserService userService = new UserServiceimpl();
+    private UserService userService = new UserServiceImpl();
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

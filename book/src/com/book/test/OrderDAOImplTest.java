@@ -15,11 +15,15 @@ import java.util.Date;
  */
 public class OrderDAOImplTest {
 
+    OrderDAO orderDao = new OrderDAOImpl();
+
     @Test
     public void saveOrder() {
-        OrderDAO orderDao = new OrderDAOImpl();
         orderDao.saveOrder(new Order("1234567890", new Date(),new BigDecimal(100),0, 1));
     }
 
-
+    @Test
+    public void queryOrders() {
+        System.out.println(orderDao.queryOrders());
+    }
 }

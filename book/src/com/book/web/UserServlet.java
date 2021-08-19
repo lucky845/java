@@ -2,7 +2,7 @@ package com.book.web;
 
 import com.book.pojo.User;
 import com.book.server.UserService;
-import com.book.server.impl.UserServiceimpl;
+import com.book.server.impl.UserServiceImpl;
 import com.book.utils.WebUtils;
 
 import javax.servlet.ServletException;
@@ -18,7 +18,7 @@ import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
  */
 public class UserServlet extends BaseServlet {
 
-    private UserService userService = new UserServiceimpl();
+    private UserService userService = new UserServiceImpl();
 
     /**
      * 处理登录的功能

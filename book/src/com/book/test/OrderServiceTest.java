@@ -14,6 +14,9 @@ import java.math.BigDecimal;
  * @project_name javaWEB
  */
 public class OrderServiceTest {
+
+    OrderService orderService = new OrderServiceImpl();
+
     @Test
     public void createOrder() {
         Cart cart = new Cart();
@@ -22,7 +25,21 @@ public class OrderServiceTest {
         cart.addItem(new CartItem(1, "java从入门到精通", 1, new BigDecimal(1000), new BigDecimal(1000)));
         cart.addItem(new CartItem(2, "数据结构与算法", 1, new BigDecimal(100), new BigDecimal(100)));
 
-        OrderService orderService = new OrderServiceImpl();
         System.out.println("订单号是：" + orderService.createOrder(cart, 1));
+    }
+
+    @Test
+    public void queryOrders() {
+        System.out.println(orderService.queryOrders());
+    }
+
+    @Test
+    public void updateOrderByOrderId() {
+        System.out.println(orderService.updateOrderByOrderId("1234567890",0));
+    }
+
+    @Test
+    public void showOrderItem() {
+        System.out.println(orderService.showOrderItem("1234567890"));
     }
 }
