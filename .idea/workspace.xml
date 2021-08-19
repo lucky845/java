@@ -10,17 +10,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aafb9bf-69ad-4901-9916-5e11ca64f0bf" name="Default Changelist" comment="new code">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/11_filter_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/11_filter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/src/com/filter/AdminFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/src/com/filter/Filter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/src/com/filter/Filter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/src/com/filter/JpgFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/src/com/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/web/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/web/admin/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/web/admin/a.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_filter/web/target.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/book/filter/ManagerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/book/filter/TransactionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/web/pages/error/error404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/web/pages/error/error500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/web/static/img/error404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/web/static/img/error500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/src/com/tmp/threadlocal/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/src/com/tmp/threadlocal/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/src/com/tmp/threadlocal/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/book/dao/BaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/dao/BaseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/book/dao/impl/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/dao/impl/BookDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/book/dao/impl/OrderDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/dao/impl/OrderDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/book/dao/impl/OrderItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/dao/impl/OrderItemDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/book/server/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/server/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/book/test/JdbcUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/test/JdbcUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/book/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/utils/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/book/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/web/BaseServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/src/com/book/web/OrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/web/OrderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/book/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/web/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/cart/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/client/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/order_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/order_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/BaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/BaseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/impl/BookDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/impl/BookDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/impl/OrderDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/impl/OrderDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/impl/OrderItemDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/dao/impl/OrderItemDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/server/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/server/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/test/JdbcUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/test/JdbcUtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/utils/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/utils/JdbcUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/BaseServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/OrderServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/client/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/order_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/order_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/login_success_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/login_success_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/dao/BaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/dao/BaseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/dao/impl/BookDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/dao/impl/BookDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/dao/impl/OrderDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/dao/impl/OrderDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/dao/impl/OrderItemDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/dao/impl/OrderItemDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/server/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/server/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/test/JdbcUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/test/JdbcUtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/utils/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/utils/JdbcUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/web/BaseServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/book/com/book/web/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/web/OrderServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +89,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -138,32 +192,32 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/book/web/WEB-INF/lib/tomcat-api.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/book/web/static/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="工件" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16447371" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.codota.intellij.common.configuration.CodotaConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java工作空间(IDEA)\javaWEB\book\web\static\img" />
+      <recent name="D:\java工作空间(IDEA)\javaWEB\book\web\pages\error" />
+      <recent name="D:\java工作空间(IDEA)\javaWEB\11_filter\web\admin" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\book" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\book\web" />
-      <recent name="D:\java工作空间(IDEA)\javaWEB\book\src\com\book" />
-      <recent name="D:\java工作空间(IDEA)\javaWEB\book\web\WEB-INF\lib" />
-      <recent name="D:\java工作空间(IDEA)\javaWEB\tmp\web\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java工作空间(IDEA)\javaWEB\11_filter\web" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\book\src" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\book\web\static\img" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\book\sql" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\book\web\pages" />
-      <recent name="D:\java工作空间(IDEA)\javaWEB\09_EL&amp;JSTL" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -177,6 +231,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat 服务器.book">
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tmp.threadlocal.ThreadLocalTest" />
+      <module name="tmp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tmp.threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="06_Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/06_Tomcat/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -621,6 +688,96 @@
         </option>
       </method>
     </configuration>
+    <configuration name="11_filter" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/11_filter/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="11_filter:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/11_filter" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3ff9be3d-3967-46f4-babc-3433e437c9d3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4785" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="11_filter:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
@@ -817,93 +974,6 @@
         </option>
       </method>
     </configuration>
-    <configuration name="order_manager.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pages/manager/order_manager.jsp" />
-      <deployment>
-        <artifact name="book:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/book_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="18e396c8-dc78-48c1-85cb-4469b1fd4cee" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="4785" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="book:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <configuration name="tmp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/tmp/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -1002,11 +1072,12 @@
       <item itemvalue="Tomcat 服务器.10_cookie_session" />
       <item itemvalue="Tomcat 服务器.book" />
       <item itemvalue="Tomcat 服务器.tmp" />
-      <item itemvalue="Tomcat 服务器.order_manager.jsp" />
+      <item itemvalue="Tomcat 服务器.11_filter" />
+      <item itemvalue="应用程序.ThreadLocalTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Tomcat 服务器.order_manager.jsp" />
+        <item itemvalue="应用程序.ThreadLocalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1077,7 +1148,15 @@
       <workItem from="1629297319191" duration="2264000" />
       <workItem from="1629334642184" duration="30000" />
       <workItem from="1629334690142" duration="37000" />
-      <workItem from="1629334754529" duration="17899000" />
+      <workItem from="1629334754529" duration="19258000" />
+      <workItem from="1629355796057" duration="201000" />
+      <workItem from="1629356026646" duration="19000" />
+      <workItem from="1629356059892" duration="31000" />
+      <workItem from="1629356109182" duration="15000" />
+      <workItem from="1629356148525" duration="253000" />
+      <workItem from="1629356452497" duration="371000" />
+      <workItem from="1629356849230" duration="6530000" />
+      <workItem from="1629365241993" duration="17263000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1628601884065</created>
@@ -1184,7 +1263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629348855826</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new code">
+      <created>1629353501668</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1629353501668</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

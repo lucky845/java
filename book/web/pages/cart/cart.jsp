@@ -16,8 +16,23 @@
 			<img class="logo_img" alt="" src="static/img/logo.gif" >
 			<span class="wel_word">购物车</span>
 
-		<%--	静态包含登录成功之后的菜单	--%>
-		<%@ include file="/pages/common/login_success_menu.jsp"%>
+		<c:if test="${not empty sessionScope.user}"> <%--用户登录后显示--%>
+		<div>
+			<span>欢迎<span class="um_span">${sessionScope.user.username}</span>光临网上书城</span>
+			<a href="orderServlet?action=queryOrdersById">我的订单</a>
+			<a href="userServlet?action=logout">注销</a>&nbsp;&nbsp;
+			<a href="index.jsp">返回</a>
+		</div>
+		</c:if>
+
+		<c:if test="${empty sessionScope.user}"> <%--用户未登录时显示--%>
+		<div>
+				<a style="color: red">尚未登录,无法显示订单信息,请先登录或注册</a>
+				<a href="pages/user/regist.jsp">注册</a>
+				<a href="pages/user/login.jsp">登录</a>
+				<a href="index.jsp">返回</a>
+			</div>
+		</c:if>
 
 		<script type="text/javascript">
 			$(function () {

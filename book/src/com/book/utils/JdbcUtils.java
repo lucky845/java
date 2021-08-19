@@ -16,6 +16,7 @@ import java.util.Properties;
 public class JdbcUtils {
 
     private static DruidDataSource dataSource;
+    private static ThreadLocal<Connection> coons = new ThreadLocal<>(); // 管理提交订单事务
 
     static{
 
@@ -42,24 +43,79 @@ public class JdbcUtils {
      */
     public static Connection getConnection(){
 
-        Connection conn = null;
+        Connection conn = coons.get();
 
-        try {
-            conn = dataSource.getConnection();
-        } catch (SQLException e) {
-            e.printStackTrace();
+        if(conn == null){
+            try {
+                conn = dataSource.getConnection(); // 从数据库连接池获取连接
+
+                coons.set(conn);// 保存到ThreadLocal中，给后面的jdbc操作使用
+
+                conn.setAutoCommit(false); // 设置手动管理事务
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
 
         return conn;
     }
 
     /**
+     * 提交事务，并关闭释放连接
+     */
+    public static void commitAndClose(){
+        Connection conn = coons.get();
+        if(conn != null){ // 如果不为null，说明以前用过连接，操作过数据库
+
+            try {
+                conn.commit(); // 提交事务
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }finally {
+                try {
+                    conn.close(); // 关闭连接,释放资源
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        }
+        // 一定要执行remove操作，否则就会出错(因为Tomcat服务器底层使用了线程池)
+        coons.remove();
+    }
+
+    /**
+     * 回滚事务,并释放连接
+     */
+    public static void rollbackAndClose(){
+        Connection conn = coons.get();
+        if(conn != null){ // 如果不为null，说明以前用过连接，操作过数据库
+
+            try {
+                conn.rollback(); // 回滚事务
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }finally {
+                try {
+                    conn.close(); // 关闭连接,释放资源
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        }
+        // 一定要执行remove操作，否则就会出错(因为Tomcat服务器底层使用了线程池)
+        coons.remove();
+    }
+
+   /* *//**
      * 关闭连接，放回数据库连接池
      * @Author lichuang
      * @Date 2021/8/14 15:10
      * @param conn
      * @return void
-     */
+     *//*
     public static void close(Connection conn){
 
         if(conn != null){
@@ -70,6 +126,6 @@ public class JdbcUtils {
             }
         }
 
-    }
+    }*/
 
 }

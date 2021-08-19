@@ -18,7 +18,7 @@ public class JdbcUtilsTest {
 
             Connection conn = JdbcUtils.getConnection();
             System.out.println(conn);
-            JdbcUtils.close(conn);
+            JdbcUtils.commitAndClose();
         }
 
 

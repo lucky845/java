@@ -29,15 +29,19 @@ public abstract class BaseDAO {
      * @Date 2021/8/14 15:42
      */
     public int update(String sql, Object... args) {
+
+//        System.out.println("BaseDAO程序在" + Thread.currentThread().getName() + "线程中");
+
         Connection conn = JdbcUtils.getConnection();
         try {
             return queryRunner.update(conn, sql, args);
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            JdbcUtils.close(conn);
+            throw new RuntimeException(e); // 下面类似操作都抛出去给OrderServlet处理(回滚事务)
         }
-        return -1;
+//        finally {
+//            JdbcUtils.close(conn);
+//        }
     }
 
     /**
@@ -56,10 +60,11 @@ public abstract class BaseDAO {
             return queryRunner.query(conn, sql, new BeanHandler<T>(type), args);
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            JdbcUtils.close(conn);
+            throw new RuntimeException(e);
         }
-        return null;
+//        finally {
+//            JdbcUtils.close(conn);
+//        }
     }
 
     /**
@@ -77,10 +82,11 @@ public abstract class BaseDAO {
             return queryRunner.query(conn, sql, new BeanListHandler<T>(type), args);
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
-            JdbcUtils.close(conn);
+            throw new RuntimeException(e);
         }
-        return null;
+//        finally {
+//            JdbcUtils.close(conn);
+//        }
     }
 
     /**
@@ -99,10 +105,11 @@ public abstract class BaseDAO {
             return queryRunner.query(conn, sql, new ScalarHandler(), args);
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            JdbcUtils.close(conn);
+            throw new RuntimeException(e);
         }
-        return null;
+//        finally {
+//            JdbcUtils.close(conn);
+//        }
 
     }
 

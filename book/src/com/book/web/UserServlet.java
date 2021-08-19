@@ -72,7 +72,7 @@ public class UserServlet extends BaseServlet {
 
         User user = WebUtils.copyParamToBean(req.getParameterMap(),new User());
 
-//        2、检查 验证码是否正确  === 写死,要求验证码为:abcde
+//        2、检查 验证码是否正确
         if (token != null && token.equalsIgnoreCase(code)) {
 //        3、检查 用户名是否可用
             if (userService.existsUsername(username)) {

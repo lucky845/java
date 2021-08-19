@@ -45,9 +45,22 @@ public class OrderServlet extends BaseServlet {
             return;
         }
 
+//        System.out.println("OrderServlet程序在" + Thread.currentThread().getName() + "线程中");
+
         Integer userId = loginUser.getId();
 //        调用orderService.createOrder(Cart,Userid);生成订单
-        String orderId = orderService.createOrder(cart, userId);
+        String orderId = null;
+//        try {
+            orderId = orderService.createOrder(cart, userId);
+
+            // 因为需要给每一个Servlet每个方法调用Service.xxx()都需要加上try-catch(所以使用TransactionFilter管理事务)
+
+//            JdbcUtils.commitAndClose(); // 提交事务
+
+//        } catch (Exception e) {
+//            JdbcUtils.rollbackAndClose(); // 回滚事务
+//            e.printStackTrace();
+//        }
 
 //        req.setAttribute("orderId", orderId);
         // 请求转发到/pages/cart/checkout.jsp
@@ -135,6 +148,5 @@ public class OrderServlet extends BaseServlet {
         orderService.updateOrderByOrderId(orderId,status);
         //重定向
         resp.sendRedirect(req.getHeader("Referer"));
-        req.getRequestDispatcher("/pages/order/order_detail.jsp").forward(req, resp);
     }
 }

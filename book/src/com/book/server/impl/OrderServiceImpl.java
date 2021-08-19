@@ -29,12 +29,17 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public String createOrder(Cart cart, Integer userId) {
+
+//        System.out.println("OrderServiceImpl程序在" + Thread.currentThread().getName() + "线程中");
+
         // 订单号===唯一性
         String orderId = System.currentTimeMillis()+""+userId;
         // 创建一个订单对象
         Order order = new Order(orderId,new Date(),cart.getTotalPrice(), 0,userId);
         // 保存订单
         orderDAO.saveOrder(order);
+
+        // 12 / 0;
 
         // 遍历购物车中每一个商品项转换成为订单项保存到数据库
         for(Map.Entry<Integer, CartItem> entry:cart.getItems().entrySet()){

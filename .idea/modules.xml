@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/08_jsp/08_jsp.iml" filepath="$PROJECT_DIR$/08_jsp/08_jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_EL&amp;JSTL/09_EL&amp;JSTL.iml" filepath="$PROJECT_DIR$/09_EL&amp;JSTL/09_EL&amp;JSTL.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_cookie&amp;session/10_cookie&amp;session.iml" filepath="$PROJECT_DIR$/10_cookie&amp;session/10_cookie&amp;session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_filter/11_filter.iml" filepath="$PROJECT_DIR$/11_filter/11_filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/book/book.iml" filepath="$PROJECT_DIR$/book/book.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaWEB.iml" filepath="$PROJECT_DIR$/javaWEB.iml" />
       <module fileurl="file://$PROJECT_DIR$/tmp/tmp.iml" filepath="$PROJECT_DIR$/tmp/tmp.iml" />

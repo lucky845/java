@@ -78,4 +78,41 @@
         <servlet-name>OrderServlet</servlet-name>
         <url-pattern>/orderServlet</url-pattern>
     </servlet-mapping>
+
+    <!--拦截普通用户进后台-->
+    <filter>
+        <filter-name>ManagerFilter</filter-name>
+        <filter-class>com.book.filter.ManagerFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ManagerFilter</filter-name>
+        <url-pattern>/pages/manager/*</url-pattern>
+        <url-pattern>/manager/bookServlet</url-pattern>
+    </filter-mapping>
+
+    <!--事务管理-->
+    <filter>
+        <filter-name>TransactionFilter</filter-name>
+        <filter-class>com.book.filter.TransactionFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>TransactionFilter</filter-name>
+        <url-pattern>/*</url-pattern><!--表示当前工程下的所有文件-->
+    </filter-mapping>
+
+    <!--error-page服务器出错后，自动跳转的页面-->
+    <error-page>
+        <!--error-code是错误类型-->
+        <error-code>500</error-code>
+        <!--location标签表示，要跳转去的页面路径-->
+        <location>/pages/error/error500.jsp</location>
+    </error-page>
+
+    <!--error-page服务器出错后，自动跳转的页面-->
+    <error-page>
+        <!--error-code是错误类型-->
+        <error-code>404</error-code>
+        <!--location标签表示，要跳转去的页面路径-->
+        <location>/pages/error/error404.jsp</location>
+    </error-page>
 </web-app>
