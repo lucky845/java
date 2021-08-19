@@ -12,7 +12,7 @@
 	<script type="text/javascript">
 		$(function (){
 			$("a.received").click(function (){
-				return confirm("确定要签收吗？");
+				return confirm("确认要签收吗？");
 			});
 		});
 	</script>

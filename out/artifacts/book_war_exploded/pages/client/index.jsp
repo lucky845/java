@@ -38,7 +38,10 @@
 					<a href="userServlet?action=logout">注销</a>&nbsp;
 				</c:if>
 				<a href="pages/cart/cart.jsp">购物车</a>
-				<a href="pages/manager/manager.jsp">后台管理</a>
+					<%--只有在是管理员用户时才显示后台管理按钮--%>
+					<c:if test="${sessionScope.user.username.equals('admin')}">
+						<a href="pages/manager/manager.jsp">后台管理</a>
+					</c:if>
 			</div>
 	</div>
 	<div id="main">

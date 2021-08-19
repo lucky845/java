@@ -18,6 +18,7 @@
 
 		<%--	静态包含登录成功之后的菜单	--%>
 		<%@ include file="/pages/common/login_success_menu.jsp"%>
+
 		<script type="text/javascript">
 			$(function () {
 				// 给删除绑定单击事件

@@ -11,7 +11,10 @@
 	<script type="text/javascript">
 		$(function (){
 			$("a.ship").click(function (){
-				return confirm("确定要发货吗？");
+				return confirm("确认要发货吗？");
+			});
+			$("a.noship").click(function (){
+				return confirm("确认要取消发货吗？");
 			});
 		});
 	</script>
@@ -24,10 +27,10 @@
 
 		<%-- 	 静态包含 manager管理模块的菜单	  --%>
 		<%@ include file="/pages/common/manager_menu.jsp"%>
-
 	</div>
 	
 	<div id="main">
+
 		<table>
 			<tr>
 				<td>日期</td>
@@ -48,7 +51,7 @@
 							<a class="ship" href="orderServlet?action=updateOrder&orderId=${order.orderId}&status=1">点击发货</a>
 						</c:if>
 						<c:if test="${order.status==1}">
-							<a class="ship" href="orderServlet?action=updateOrder&orderId=${order.orderId}&status=0">取消发货</a>
+							<a class="noship" href="orderServlet?action=updateOrder&orderId=${order.orderId}&status=0">取消发货</a>
 						</c:if>
 						<c:if test="${order.status==2}">
 							顾客已签收

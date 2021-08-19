@@ -135,5 +135,6 @@ public class OrderServlet extends BaseServlet {
         orderService.updateOrderByOrderId(orderId,status);
         //重定向
         resp.sendRedirect(req.getHeader("Referer"));
+        req.getRequestDispatcher("/pages/order/order_detail.jsp").forward(req, resp);
     }
 }
