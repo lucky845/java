@@ -4,11 +4,14 @@ import com.book.pojo.User;
 import com.book.server.UserService;
 import com.book.server.impl.UserServiceImpl;
 import com.book.utils.WebUtils;
+import com.google.gson.Gson;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
 
@@ -117,6 +120,29 @@ public class UserServlet extends BaseServlet {
         req.getSession().invalidate();
         // 2、重定向到首页（或登录页面）。
         resp.sendRedirect(req.getContextPath());
+    }
+
+    /**
+     *
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
+    protected void ajaxExistsUsername(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // 获取请求的参数username
+        String username = req.getParameter("username");
+        // 调用userService.existsUsername();
+        boolean existsUsername = userService.existsUsername(username);
+        // 把返回的结果封装成为Map对象
+        Map<String,Object> resultMap = new HashMap<>();
+        resultMap.put("existsUsername",existsUsername);
+
+        Gson gson = new Gson();
+        String json = gson.toJson(resultMap);
+
+        resp.getWriter().write(json);
+
     }
 
 }

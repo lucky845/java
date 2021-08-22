@@ -7,10 +7,7 @@
           <element id="module-output" name="06_Tomcat" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="druid-1.1.9" />
-          <element id="library" level="project" name="mysql-connector-java-5.1.7-bin" />
           <element id="library" level="module" name="taglibs-standard-spec-1.2.1" module-name="06_Tomcat" />
-          <element id="library" level="project" name="06_Tomcat" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="06_Tomcat/web/Web" />

@@ -11,6 +11,21 @@
 	<script type="text/javascript">
 		// 页面加载完成之后
 		$(function () {
+			// 使用ajax判断用户名是否可用
+			$("#username").blur(function () {
+
+				// 获取用户名
+				var username = this.value;
+
+				$.getJSON("http://localhost:8080/book/userServlet","action=ajaxExistsUsername&username=" + username,function (data) {
+					if (data.existsUsername){
+						$("span.errorMsg").text("用户名已存在！");
+					}else{
+						$("span.errorMsg").text("用户名可用！");
+					}
+				});
+			});
+
 
 			// 给验证码图片绑定单击事件
 			$("#code_img").click(function () {
