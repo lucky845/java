@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--1. 提取list集合类属性注入-->
+    <util:list id="bookList">
+        <value>java入门到放弃</value>
+        <value>易筋经</value>
+        <value>九阴真经</value>
+    </util:list>
+
+    <!--2. 提取list集合类属性使用-->
+    <!--scope设置多实例对象 prototype是多实例 singleton是单实例-->
+    <bean id="book" class="com.spring5.collectiontype.Book" scope="prototype">
+        <property name="list" ref="bookList"/>
+    </bean>
+</beans>
