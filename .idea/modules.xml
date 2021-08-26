@@ -7,8 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$/demo03/demo03.iml" filepath="$PROJECT_DIR$/demo03/demo03.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo04/demo04.iml" filepath="$PROJECT_DIR$/demo04/demo04.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo05/demo05.iml" filepath="$PROJECT_DIR$/demo05/demo05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoreactor/demoreactor.iml" filepath="$PROJECT_DIR$/demoreactor/demoreactor.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring5.iml" filepath="$PROJECT_DIR$/spring5.iml" />
       <module fileurl="file://$PROJECT_DIR$/txdemo01/txdemo01.iml" filepath="$PROJECT_DIR$/txdemo01/txdemo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webfluxdemo01/webfluxdemo01.iml" filepath="$PROJECT_DIR$/webfluxdemo01/webfluxdemo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webfluxdemo02/webfluxdemo02.iml" filepath="$PROJECT_DIR$/webfluxdemo02/webfluxdemo02.iml" />
     </modules>
   </component>
 </project>
