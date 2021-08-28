@@ -1,5 +1,3 @@
-[TOC]
-
 # 一、SpringMVC简介
 
 ### 1、什么是MVC
@@ -92,7 +90,7 @@ Spring版本：5.3.1
 
 注：由于 Maven 的传递性，我们不必将所有需要的包全部配置依赖，而是配置最顶端的依赖，其他靠传递性导入。
 
-![images](img\img001.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/190303_41f547e0_9171857.png "屏幕截图.png")
 
 ### 3、配置web.xml
 
@@ -683,7 +681,7 @@ public String testHello(){
 }
 ```
 
-![](img/img002.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/190342_4ed1797d_9171857.png "屏幕截图.png")
 
 ### 2、转发视图
 
@@ -702,7 +700,7 @@ public String testForward(){
 }
 ```
 
-![image-20210706201316593](img/img003.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/190351_7ecbc1d6_9171857.png "屏幕截图.png")
 
 ### 3、重定向视图
 
@@ -719,7 +717,7 @@ public String testRedirect(){
 }
 ```
 
-![image-20210706201602267](img/img004.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/190359_cd0c2cf8_9171857.png "屏幕截图.png")
 
 > 注：
 >
@@ -1708,7 +1706,7 @@ public String index(){
 
 DispatcherServlet 本质上是一个 Servlet，所以天然的遵循 Servlet 的生命周期。所以宏观上是 Servlet 生命周期来进行调度。
 
-![images](img/img005.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/190507_37d75b38_9171857.png "屏幕截图.png")
 
 ##### a>初始化WebApplicationContext
 
@@ -2092,15 +2090,15 @@ i. 再判断是否配置了mvc:default-servlet-handler
 
 ii. 如果没配置，则控制台报映射查找不到，客户端展示404错误
 
-![image-20210709214911404](img/img006.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/190533_afdc3987_9171857.png "屏幕截图.png")
 
-![image-20210709214947432](img/img007.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/190539_e696e09d_9171857.png "屏幕截图.png")
 
 iii. 如果有配置，则访问目标资源（一般为静态资源，如：JS,CSS,HTML），找不到客户端也会展示404错误
 
-![image-20210709215255693](img/img008.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/190545_11f9dd50_9171857.png "屏幕截图.png")
 
-![image-20210709215336097](img/img009.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0828/190551_dd2db64b_9171857.png "屏幕截图.png")
 
 b) 存在则执行下面的流程
 
