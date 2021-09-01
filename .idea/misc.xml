@@ -4,6 +4,9 @@
     <file type="web" url="file://$PROJECT_DIR$/springMVC-demo01" />
     <file type="web" url="file://$PROJECT_DIR$/springMVC-demo02" />
     <file type="web" url="file://$PROJECT_DIR$/springMVC-demo03" />
+    <file type="web" url="file://$PROJECT_DIR$/springMVC-demo04" />
+    <file type="web" url="file://$PROJECT_DIR$/springMVC-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/springMVC-rest" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,11 +15,13 @@
         <option value="$PROJECT_DIR$/springMVC-demo02/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC-demo3/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC-demo03/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC-demo04/pom.xml" />
       </list>
     </option>
   </component>
   <component name="PWA">
-    <option name="enabled" value="true" />
     <option name="wasEnabledAtLeastOnce" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
