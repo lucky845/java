@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="12_Json&amp;ajax&amp;i18n:war exploded" />
+      <artifact name="book:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,68 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aafb9bf-69ad-4901-9916-5e11ca64f0bf" name="Default Changelist" comment="new code">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/12_Json_ajax_i18n_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/12_Json&amp;ajax&amp;i18n.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/src/com/json/json/JsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/src/com/json/json/PersonListType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/src/com/json/json/PersonMapType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/src/com/json/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/src/com/json/servlet/AjaxServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/src/com/json/servlet/BaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/Jquery_Ajax_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/WEB-INF/lib/gson-2.2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/i18n.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/i18n_fmt.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/script/jquery-1.7.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/06_Tomcat_war_exploaded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/06_Tomcat_war_exploaded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/09_EL_JSTL_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/09_EL_JSTL_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/06_Tomcat.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/druid_1_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_7_bin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/entities/entities.dat_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/storage_v2/_src_/schema/book.6TouAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d6fb0e49-af9e-4c3b-9cb4-b95e532e1ca6/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_XML/05_XML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05_XML/05_XML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_Tomcat/06_Tomcat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/06_Tomcat/06_Tomcat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_servlet/07_servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/07_servlet/07_servlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_jsp/08_jsp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/08_jsp/08_jsp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_EL&amp;JSTL/09_EL&amp;JSTL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09_EL&amp;JSTL/09_EL&amp;JSTL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_cookie&amp;session/10_cookie&amp;session.iml" beforeDir="false" afterPath="$PROJECT_DIR$/10_cookie&amp;session/10_cookie&amp;session.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_filter/11_filter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11_filter/11_filter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/book/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/web/BaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/web/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/web/CartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/book/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/book/web/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/client/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/BaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/CartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/book/web/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/client/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/web/BaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/web/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/web/CartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/book/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/book/web/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/tmp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/tmp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/sql/book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/book/sql/book.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +162,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/12_Json&amp;ajax&amp;i18n/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -247,7 +201,7 @@
       <recent name="com.servlet2" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 服务器.12_Json_ajax_i18n">
+  <component name="RunManager" selected="Tomcat 服务器.book">
     <configuration name="I18nTest.testI18n" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="12_Json&amp;ajax&amp;i18n" />
       <extension name="coverage">
@@ -1355,6 +1309,12 @@
       <workItem from="1629556019706" duration="207000" />
       <workItem from="1629556266410" duration="3422000" />
       <workItem from="1629610294052" duration="654000" />
+      <workItem from="1629619384260" duration="126000" />
+      <workItem from="1629858739317" duration="248000" />
+      <workItem from="1630039310935" duration="223000" />
+      <workItem from="1630586259409" duration="293000" />
+      <workItem from="1630660365225" duration="15000" />
+      <workItem from="1630678661630" duration="1584000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1628601884065</created>
@@ -1482,7 +1442,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629383672782</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="new code">
+      <created>1629619432880</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1629619432880</updated>
+    </task>
+    <task id="LOCAL-00020" summary="new code">
+      <created>1629619446641</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1629619446641</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
