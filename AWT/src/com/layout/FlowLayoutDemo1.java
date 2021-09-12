@@ -17,7 +17,7 @@ public class FlowLayoutDemo1 {
         // 1.通过setLayout()方法设置容器的布局管理器
 //        frame.setLayout(new FlowLayout(FlowLayout.LEFT,20,20)); // 左对齐
 //        frame.setLayout(new FlowLayout(FlowLayout.CENTER,20,20)); // 右对齐
-//        frame.setLayout(new FlowLayout(FlowLayout.RIGHT,20,20)); // 居中对齐
+        frame.setLayout(new FlowLayout(FlowLayout.RIGHT,20,20)); // 居中对齐
         // 2.添加多个按钮到Frame中
         for (int i = 1; i <= 100; i++) {
             frame.add(new Button("测试按钮" + i));
