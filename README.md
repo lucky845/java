@@ -1595,7 +1595,7 @@ public class PopupMenuTest {
 
 ​	![](./images/组件绘制图形流程.png)
 
-​	一般情况下，update和paint方法是由AWT系统负责调用，如果程序要希望系统重新绘制组件，可以调用repaint方法完成。
+​	一般情况下，update和paint方法是由AWT系统负责调用，如果程序员希望系统重新绘制组件，可以调用repaint方法完成。
 
 ### 2.8.2 Graphics类的使用
 
