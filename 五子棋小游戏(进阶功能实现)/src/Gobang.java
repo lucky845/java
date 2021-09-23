@@ -14,6 +14,8 @@ import java.io.IOException;
  * @Author lichuang
  * @Since JDK 1.8
  */
+
+// todo 以后有空需要加上一个菜单项，添加重新开始游戏等类似功能
 public class Gobang {
     // 定义五子棋游戏窗口
     private JFrame frame = new JFrame("五子棋游戏");
