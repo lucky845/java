@@ -2692,7 +2692,7 @@ public class SwingComponentDemo {
         //调用ta组件的setComponentPopupMenu即可设置右键菜单，无需使用事件
         ta.setComponentPopupMenu(pop);
 
-        // 设置关闭窗口时推出程序
+        // 设置关闭窗口时退出程序
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //设置jFrame最佳大小并可见

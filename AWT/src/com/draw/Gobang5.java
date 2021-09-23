@@ -8,6 +8,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 
 /**
+ * 五子棋小游戏
  * @ClassName: Gobang5
  * @Description:
  * @Date: 2021/9/22 22:45
@@ -209,5 +210,4 @@ public class Gobang5 {
     public static void main(String[] args) throws Exception{
         new Gobang5().init();
     }
-
 }
