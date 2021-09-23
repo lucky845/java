@@ -209,8 +209,10 @@ public class Gobang {
                     board[xPos][yPos] = board_type;
                 }else { // 如果当前位置有棋子弹窗提醒
                     JDialog message = new JDialog(frame,false);
-                    TextField tf = new TextField("当前位置已经有棋子了");
-                    message.add(tf);
+                    TextArea ta = new TextArea("当前位置已经有棋子了");
+                    message.add(ta);
+                    message.setFont(new Font("Message", Font.BOLD, 30));
+                    message.setBounds(200,200,25,25);
                     message.pack(); // 设置最佳大小
                     message.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE); // 设置关闭事件
                     message.setVisible(true); // 将组件设置为可见
