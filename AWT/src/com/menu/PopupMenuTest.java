@@ -3,6 +3,8 @@ package com.menu;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 /**
  * @ClassName: PopupMenuTest
@@ -69,6 +71,13 @@ public class PopupMenuTest {
         // 设置frame最佳大小并可见
         frame.pack();
         frame.setVisible(true);
+
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
     }
 
     public static void main(String[] args) {

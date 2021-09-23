@@ -29,5 +29,12 @@ public class ListenerDemo3 {
         frame.setBounds(200,200,500,300);
 
         frame.setVisible(true);
+
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
     }
 }

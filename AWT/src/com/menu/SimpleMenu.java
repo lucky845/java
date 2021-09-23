@@ -1,9 +1,7 @@
 package com.menu;
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
+import java.awt.event.*;
 
 import static java.awt.event.KeyEvent.VK_Q;
 
@@ -103,6 +101,13 @@ public class SimpleMenu {
         //设置frame最佳大小并可见
         frame.pack();
         frame.setVisible(true);
+
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
     }
 
     public static void main(String[] args) {
