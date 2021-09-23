@@ -51,9 +51,8 @@ public class BorderTest2 {
         CompoundBorder cb = new CompoundBorder(new LineBorder(Color.RED,8),tb);
         jf.add(getPanelWithBorder(cb,"CompoundBorder"));
 
+        // 3.设置窗口最佳大小并可见,处理关闭事件
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 退出按钮事件
-
-        // 3.设置窗口最佳大小并可见
         jf.pack();
         jf.setVisible(true);
 
