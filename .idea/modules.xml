@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AWT/AWT.iml" filepath="$PROJECT_DIR$/AWT/AWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java AWT Swing.iml" filepath="$PROJECT_DIR$/Java AWT Swing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Swing/Swing.iml" filepath="$PROJECT_DIR$/Swing/Swing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/五子棋小游戏(进阶功能实现)/五子棋小游戏(进阶功能实现).iml" filepath="$PROJECT_DIR$/五子棋小游戏(进阶功能实现)/五子棋小游戏(进阶功能实现).iml" />
     </modules>
   </component>
 </project>
