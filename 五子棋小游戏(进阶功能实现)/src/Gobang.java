@@ -15,7 +15,7 @@ import java.io.IOException;
  * @Since JDK 1.8
  */
 
-// todo 以后有空需要加上一个菜单项，添加重新开始游戏等类似功能
+// TODO 以后有空需要加上一个菜单项，添加重新开始游戏等类似功能
 public class Gobang {
     // 定义五子棋游戏窗口
     private JFrame frame = new JFrame("五子棋游戏");
@@ -41,14 +41,12 @@ public class Gobang {
     private final int Y_OFFSET = 6;
 
     /*
-
         定义一个二维数组充当棋盘上每个位置处的棋子；
         该数组的索引与该棋子在棋盘上的坐标需要有一个对应关系：
             例如： 索引[2][3]处的棋子，对一个的真实绘制坐标应该是：
 
                 xpos = 2*RATE+X_OFFSET=75;
                 ypos = 3*RATE+Y_OFFSET=111;
-
      */
     private int[][] board = new int[BOARD_SIZE][BOARD_SIZE]; //如果存储0，代表没有棋子，如果存储2，代表黑棋，如果存储1，代表白棋
 
@@ -60,7 +58,7 @@ public class Gobang {
     private class ChessBoard extends JPanel{
         @Override
         public void paint(Graphics g) {
-            //todo 绘图
+            // 绘图
 
             // 绘制棋盘
             g.drawImage(table,0,0,null);

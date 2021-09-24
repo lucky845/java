@@ -3234,8 +3234,7 @@ public class MessageDialogTest {
             //JOptionPane.showMessageDialog(jf, jta.getText(), "消息对话框", JOptionPane.WARNING_MESSAGE);
             //JOptionPane.showMessageDialog(jf, jta.getText(), "消息对话框", JOptionPane.QUESTION_MESSAGE);
             //JOptionPane.showMessageDialog(jf, jta.getText(), "消息对话框", JOptionPane.PLAIN_MESSAGE);
-            JOptionPane.showMessageDialog(jf, jta.getText(), "消息对话框", JOptionPane.WARNING_MESSAGE, new ImageIcon(ImagePathUtil.getRealPath("2\\female.png")));
-
+			JOptionPane.showMessageDialog(jFrame, jTextArea.getText(), "消息对话框", JOptionPane.WARNING_MESSAGE, new ImageIcon("Swing\\img\\component\\female.png"));
         }
     });
 
