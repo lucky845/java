@@ -24,13 +24,13 @@ public class OptionPaneDialogTest9 {
                     JOptionPane.INFORMATION_MESSAGE, null, new String[]{"大号", "中号", "小号"}, "中号");
             switch(result){
                 case 0:
-                    jta.setText("用户选择了大号");
+                    jta.setText("用户选择了大号尿不湿");
                     break;
                 case 1:
-                    jta.setText("用户选择了中号");
+                    jta.setText("用户选择了中号尿不湿");
                     break;
                 case 2:
-                    jta.setText("用户选择了小号");
+                    jta.setText("用户选择了小号尿不湿");
                     break;
             }
         }
