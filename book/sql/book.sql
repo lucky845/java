@@ -1,6 +1,6 @@
 DROP DATABASE IF EXISTS book; ## 如果原来的数据库存在，就删除
 
-CREATE DATABASE book; ## 创建数据库
+CREATE DATABASE book CHARACTER SET utf8; ## 创建数据库并设置字符集为utf8
 
 USE book;
 ## 切换到数据库
@@ -29,7 +29,7 @@ FROM t_user;
 CREATE TABLE t_book
 (
     `id`       INT(11) PRIMARY KEY AUTO_INCREMENT, ## 主键
-    `name`     VARCHAR(50)    NOT NULL,            ## 书名
+    `name`     VARCHAR(100)    NOT NULL,            ## 书名
     `author`   VARCHAR(50)    NOT NULL,            ## 作者
     `price`    DECIMAL(11, 2) NOT NULL,            ## 价格
     `sales`    INT(11)        NOT NULL,            ## 销量
