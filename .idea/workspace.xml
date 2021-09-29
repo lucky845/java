@@ -10,11 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aafb9bf-69ad-4901-9916-5e11ca64f0bf" name="Default Changelist" comment="new code">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/12_Json_ajax_i18n_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/12_Json_ajax_i18n_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ff4a3e7-42a2-41ba-9604-efd535e73179.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3ff4a3e7-42a2-41ba-9604-efd535e73179.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/sql/book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/book/sql/book.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +153,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16447371" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
@@ -922,7 +918,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="book" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="16">
+    <configuration name="book" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -1214,6 +1210,12 @@
       <workItem from="1630738149138" duration="175000" />
       <workItem from="1631003575104" duration="1477000" />
       <workItem from="1632149049702" duration="8000" />
+      <workItem from="1632631415445" duration="362000" />
+      <workItem from="1632822204092" duration="191000" />
+      <workItem from="1632826640914" duration="926000" />
+      <workItem from="1632884481990" duration="106000" />
+      <workItem from="1632892827213" duration="26000" />
+      <workItem from="1632893075086" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1628601884065</created>
@@ -1376,7 +1378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630730935300</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="new code">
+      <created>1632631485434</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1632631485434</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
