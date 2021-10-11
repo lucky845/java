@@ -10,7 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3aafb9bf-69ad-4901-9916-5e11ca64f0bf" name="Default Changelist" comment="new code">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/book_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/book_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,13 +152,13 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mimissm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/book/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDK" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16447371" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
@@ -161,9 +166,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java工作空间(IDEA)\javaWEB\book\web\WEB-INF\lib" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\12_Json&amp;ajax&amp;i18n\web\WEB-INF\lib" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\12_Json&amp;ajax&amp;i18n\src" />
-      <recent name="D:\java工作空间(IDEA)\javaWEB\book\web\WEB-INF\lib" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\12_Json&amp;ajax&amp;i18n\web" />
       <recent name="D:\java工作空间(IDEA)\javaWEB\book\web\static\img" />
     </key>
@@ -186,7 +191,7 @@
       <recent name="com.servlet2" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.06_Tomcat">
+  <component name="RunManager" selected="Tomcat Server.book">
     <configuration name="06_Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/06_Tomcat/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -1220,6 +1225,8 @@
       <workItem from="1633066561705" duration="38000" />
       <workItem from="1633792539003" duration="161000" />
       <workItem from="1633918341464" duration="314000" />
+      <workItem from="1633919043263" duration="74000" />
+      <workItem from="1633919192702" duration="1744000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1628601884065</created>
@@ -1403,7 +1410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633918427382</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="new code">
+      <created>1633919098392</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1633919098392</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
