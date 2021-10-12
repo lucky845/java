@@ -10,13 +10,15 @@ import java.util.Properties;
 
 /**
  * @author lichuang
- * @description
  * @create 2021-08-14 15:09
  */
 public class JdbcUtils {
 
     private static DruidDataSource dataSource;
-    private static ThreadLocal<Connection> coons = new ThreadLocal<>(); // 管理提交订单事务
+    /**
+     管理提交订单事务
+     */
+    private static ThreadLocal<Connection> coons = new ThreadLocal<>();
 
     static{
 
@@ -38,7 +40,6 @@ public class JdbcUtils {
      * 获取数据库池中的连接
      * @Author lichuang
      * @Date 2021/8/14 15:11
-     * @param
      * @return java.sql.Connection 如果返回null，说明获取连接失败<br/>，有值就是获取成功
      */
     public static Connection getConnection(){
@@ -47,11 +48,14 @@ public class JdbcUtils {
 
         if(conn == null){
             try {
-                conn = dataSource.getConnection(); // 从数据库连接池获取连接
+                // 从数据库连接池获取连接
+                conn = dataSource.getConnection();
 
-                coons.set(conn);// 保存到ThreadLocal中，给后面的jdbc操作使用
+                // 保存到ThreadLocal中，给后面的jdbc操作使用
+                coons.set(conn);
 
-                conn.setAutoCommit(false); // 设置手动管理事务
+                // 设置手动管理事务
+                conn.setAutoCommit(false);
 
             } catch (SQLException e) {
                 e.printStackTrace();
@@ -66,7 +70,8 @@ public class JdbcUtils {
      */
     public static void commitAndClose(){
         Connection conn = coons.get();
-        if(conn != null){ // 如果不为null，说明以前用过连接，操作过数据库
+        // 如果不为null，说明以前用过连接，操作过数据库
+        if(conn != null){
 
             try {
                 conn.commit(); // 提交事务
@@ -90,7 +95,8 @@ public class JdbcUtils {
      */
     public static void rollbackAndClose(){
         Connection conn = coons.get();
-        if(conn != null){ // 如果不为null，说明以前用过连接，操作过数据库
+        // 如果不为null，说明以前用过连接，操作过数据库
+        if(conn != null){
 
             try {
                 conn.rollback(); // 回滚事务
@@ -109,13 +115,14 @@ public class JdbcUtils {
         coons.remove();
     }
 
-   /* *//**
+    /**
      * 关闭连接，放回数据库连接池
      * @Author lichuang
      * @Date 2021/8/14 15:10
      * @param conn
      * @return void
-     *//*
+     */
+    /**
     public static void close(Connection conn){
 
         if(conn != null){
