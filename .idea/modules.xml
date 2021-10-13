@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaSE练习项目.iml" filepath="$PROJECT_DIR$/javaSE练习项目.iml" />
+      <module fileurl="file://$PROJECT_DIR$/单机考试管理软件/单机考试管理软件.iml" filepath="$PROJECT_DIR$/单机考试管理软件/单机考试管理软件.iml" />
+      <module fileurl="file://$PROJECT_DIR$/学生管理系统/学生管理系统.iml" filepath="$PROJECT_DIR$/学生管理系统/学生管理系统.iml" />
+      <module fileurl="file://$PROJECT_DIR$/银行业务管理软件/银行业务管理软件.iml" filepath="$PROJECT_DIR$/银行业务管理软件/银行业务管理软件.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking1/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking2/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking3/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking4/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking4/Bank.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5/Bank.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5/CheckingAccount.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5/SavingAccount.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5_1/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5_1/Bank.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5_1/Customer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5_1/SavingAccount.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5_2/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5_2/Bank.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5_2/CheckingAccount.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5_2/Customer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking5_2/SavingAccount.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking6/domain/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking6/domain/Bank.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking6/domain/CheckingAccount.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking6/domain/Customer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/银行业务管理软件/src/banking6/domain/SavingAccount.java" charset="UTF-8" />
+  </component>
+</project>
